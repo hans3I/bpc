@@ -1,0 +1,130 @@
+% ==============================================================
+% BPC IFest 2026 — Business Plan Proposal
+% Format spec source: GUIDEBOOK BPC IFEST 2026.pdf (see guidebook_text.txt)
+%   - A4, margins 4cm left / 3cm top-right-bottom
+%   - Titles: Times New Roman 14pt bold centered, 1.5 spacing
+%   - Body: Times New Roman 12pt, 1.5 spacing, justified
+%   - Page numbers: bottom-right, Arabic, from Bab 1 through Lampiran
+%   - Citations/bibliography: APA 7th edition
+% Compile: xelatex main.tex && biber main && xelatex main.tex && xelatex main.tex
+% ==============================================================
+\documentclass[12pt]{article}
+
+% ---------- Page geometry (spec: 4cm left, 3cm top/right/bottom) ----------
+\usepackage[a4paper, left=4cm, top=3cm, right=3cm, bottom=3cm]{geometry}
+
+% ---------- Fonts: real Times New Roman via XeLaTeX, with a portable fallback ----------
+\usepackage{fontspec}
+\IfFontExistsTF{Times New Roman}
+  {\setmainfont{Times New Roman}}
+  {\setmainfont{TeX Gyre Termes}} % metric-compatible substitute if TNR is unavailable
+
+% ---------- Spacing: 1.5 throughout ----------
+\usepackage{setspace}
+\onehalfspacing
+
+% ---------- Justified body (LaTeX default) + better line breaking ----------
+\usepackage{ragged2e}
+\usepackage{microtype}
+% No Indonesian hyphenation patterns available; a few long unbreakable
+% strings (regulation numbers, slashes) are patched with \allowbreak at
+% the source instead of loosening global spacing (keeps the 15-page budget).
+\exhyphenpenalty=50
+
+% ---------- Chapter/section title styling ----------
+% "Judul utama" (Bab titles): 14pt bold centered, 1.5 spacing (21pt leading)
+\usepackage{titlesec}
+\titleformat{\section}
+  {\centering\bfseries\fontsize{14}{21}\selectfont}{}{0em}{}
+\titlespacing*{\section}{0pt}{6pt}{10pt}
+% Subsection headings (x.y ...): bold, left-aligned, body size
+\titleformat{\subsection}
+  {\bfseries\fontsize{12}{18}\selectfont}{\thesubsection}{0.6em}{}
+\titlespacing*{\subsection}{0pt}{8pt}{3pt}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
+
+% ---------- Paragraph indent (Indonesian academic convention) ----------
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+
+% ---------- Tables ----------
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% ---------- Lists ----------
+\usepackage{enumitem}
+\setlist{topsep=1pt, itemsep=1pt, parsep=0pt}
+
+% ---------- Bibliography: biblatex + APA7 style + biber backend ----------
+\usepackage{csquotes}
+\usepackage[style=apa, backend=biber, sorting=nyt]{biblatex}
+\addbibresource{referensi.bib}
+\DeclareLanguageMapping{english}{english-apa}
+
+% ---------- Hyperlinks (unobtrusive, print-friendly) ----------
+\usepackage[hidelinks]{hyperref}
+\pdfstringdefDisableCommands{\def\ProductName{Alurin}} % keep PDF bookmarks clean
+% rotating (sidewaystable): landscape+table floats don't combine reliably
+% (the float can escape the rotated scope); sidewaystable is the standard
+% fix - a float that rotates itself.
+\usepackage{rotating}
+
+% ---------- Page numbering: bottom-right Arabic, only from Bab 1 onward ----------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ---------- Product name macro: change once here, propagates everywhere ----------
+\newcommand{\ProductName}{Alurin}
+\newcommand{\ProposalTitle}{\ProductName{}: Platform SaaS IoT dan AI untuk Optimalisasi Rute Pengangkutan dan Alokasi RDF Sampah Perkotaan Jakarta}
+
+\begin{document}
+
+% ============ FRONT MATTER (unnumbered) ============
+\pagenumbering{gobble}
+
+\input{sections/00-cover}
+\clearpage
+\input{sections/01-kata-pengantar}
+\clearpage
+\input{sections/02-daftar-isi}
+\clearpage
+\input{sections/03-executive-summary}
+\clearpage
+
+% ============ MAIN BODY: Arabic numbering starts here (Bab 1) ============
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{sections/bab1-pendahuluan}
+\clearpage
+\input{sections/bab2-analisis-produk}
+\clearpage
+\input{sections/bab3-analisis-pasar}
+\clearpage
+\input{sections/bab4-operasional}
+\clearpage
+\input{sections/bab5-keuangan}
+\clearpage
+\input{sections/bab6-penutup}
+\clearpage
+
+% ============ DAFTAR PUSTAKA (still Arabic-numbered, per spec) ============
+\input{sections/daftar-pustaka}
+\clearpage
+
+% ============ LAMPIRAN (still Arabic-numbered, per spec) ============
+\input{sections/lampiran-1-bmc}
+\clearpage
+\input{sections/lampiran-2-biodata}
+
+\end{document}

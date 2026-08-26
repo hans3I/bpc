@@ -1,0 +1,12 @@
+# Compiled LaTeX artifacts (regenerate on demand; only source + final PDF are tracked)
+proposal/*.aux
+proposal/*.bbl
+proposal/*.blg
+proposal/*.bcf
+proposal/*.log
+proposal/*.out
+proposal/*.toc
+proposal/*.run.xml
+proposal/*.synctex.gz
+proposal/compile*.log
+proposal/compile*.txt

@@ -1,0 +1,265 @@
+﻿BUSINESS PLAN COMPETITION    
+IFEST UNPAD 2026
+
+
+GREEN AND SUSTAINABLE TECHNOLOGY
+
+
+
+
+JUDUL PROPOSAL BISNIS 
+(Maksimal 20 Kata)
+
+
+   
+
+
+(Logo Bisnis (Ganti Logo di atas))
+
+
+Diusulkan oleh :
+Hansel Stevan Boike - 140810240079
+Bryan Patrick Kurniawan - 2802420920
+Michael Hau - 125240042
+
+
+
+
+Universitas Padjadjaran, Jawa Barat, tahun
+Universitas Bina Nusantara, Jakarta Barat, tahun
+Universitas Tarumanegara, Jakarta Barat, tahun
+UNIVERSITAS PADJADJARAN
+JATINANGOR
+2026
+KATA PENGANTAR
+Puji dan syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas rahmat dan karunia-Nya, sehingga kami dapat menyelesaikan penyusunan proposal ini dengan tepat waktu. Proposal ini disusun dalam rangka mengikuti kompetisi IFEST Business Plan Competition 2026 yang diselenggarakan oleh Universitas Padjadjaran.
+Gagasan bisnis ini dirancang sebagai upaya untuk menghadirkan solusi inovatif untuk menghadapi masalah ____, sekaligus menciptakan peluang usaha yang memiliki nilai ekonomis, daya saing tinggi, dan berdampak positif bagi banyak masyarakat.
+Keberhasilan penyusunan proposal ini tidak lepas dari bantuan dan dukungan dari berbagai pihak. Pada kesempatan ini, kami ingin menyampaikan apresiasi dan terima kasih yang sebesar-besarnya kepada:
+1. Kami menyadari bahwa proposal ini masih memiliki keterbatasan dan jauh dari kata sempurna. Oleh karena itu, kami sangat terbuka terhadap kritik, saran, serta masukan konstruktif dari dewan juri dan pembaca sekalian demi penyempurnaan rancangan bisnis di masa depan.
+Besar harapan kami agar proposal bisnis ini dapat dinilai secara objektif, memberikan manfaat nyata, serta dapat direalisasikan di masa depan. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DAFTAR ISI
+Bab 1. Pendahuluan
+1.1. Latar Belakang Bisnis        4
+1.2. Tujuan Bisnis        4
+1.3. Manfaat Bisnis        4
+Bab 2. Analisis Produk/Jasa
+2.1. Deskripsi Produk/Jasa        4
+2.2. Keunggualan Produk        4
+2.3. Alur Produksi/Jasa        4
+2.4. Rencana Pengembangan Produk/Jasa        4
+Bab 3. Analisis Pasar
+3.1. Analisis SWOT        4
+3.2. Target dan Segmen Pasar        4
+3.3. Strategi Pemasaran        4
+Bab 4. Rencana Operasional dan Manajemen
+4.1. Struktur Organisasi        4
+4.2. Rencana Kebutuhan Sumber Daya Manusia        4
+Bab 5. Analisis Keuangan
+5.1. Kebutuhan Modal Awal        5
+5.2. Struktur Biaya        5
+5.3. Proyeksi Laba Rugi        5
+5.4. Analisis Kelayakan Usaha        5
+Bab 6. Penutup
+6.1. Kesimpulan        5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXECUTIVE SUMMARY
+        Krisis kapasitas tempat pembuangan akhir Bantar Gebang yang sudah melewati batas kapasitas (overload) diperburuk oleh inefisiensi logistik pengangkutan sampah perkotaan yang masih bergantung pada rute dan jadwal yang statis. Armada truk sampah seringkali bergerak menjemput kontainer yang belum penuh, menyebabkan pemborosan bahan bakar, dan gagal mendistribusikan alokasi sampah secara presisi ke fasilitas pengolahan sampah modern seperti Refused Derived Fuel (RDF) Plant. [Nama Produk] hadir sebagai platform Green Technology berbasis B2B/B2G SaaS yang mengkombinasikan sensor IoT fill-level dan Dynamic Routing AI untuk merestrukturisasi manajemen operasional pengangkutan sampah kota.
+        Masalah utama pada pasar saat ini adalah inefisiensi logistik pengangkutan dimana sampah diangkut berdasarkan jadwal dan bukan volume yang memicu pemborosan BBM armada. Penumpukan sampah yang tidak terdistribusi secara fleksibel dan minimnya edukasi mengenai waste-to-energy  juga memicu habisnya daya tampung TPA Bantar Gebang.
+Solusi yang kami gagas untuk masalah ini adalah dengan mengembangkan IoT fill-level sensor, yaitu sensor pintar yang dipasang pada kontainer TPS atau gedung komersial untuk memantau kapasitas sampah secara real-time. Ketika sensor menunjukkan bahwa kapasitas suatu TPS sudah penuh (>= 80%), Dynamic Route Engine berbasis AI akan memetakan rute tercepat secara otomatis untuk mengangkut sampah-sampahnya. Sebelum dibuang ke TPA, Predictive RDF Allocation system dapat menentukan dan mengarahkan aliran sampah bernilai kalor tinggi ke tempat pengolahan RDF, sehingga mengurangi beban pembuangan akhir Bantar Gebang.
+[nama produk] mengadopsi pendekatan asset-light (memanfaatkan armada pengangkut sampah milik pemerintah) dengan dua aliran pendapatan yaitu, Business to government, dimana pemerintah membayar lisensi tahunan SaaS dan sensor IoT untuk pengawasan armada kota. Sumber pendapatan kedua yaitu, Business to business bagi pengelola kawasan mandiri, mall, atau vendor swasta dengan menjual unit sensor IoT serta langganan platform bulanan untuk analisis limbah dan pelaporan ESG (Environmental, Social, and Governance).
+[nama produk] mampu memangkas biaya operasional BBM armada pengangkut sampah, memotong waktu tempuh rute, serta meningkatkan efisiensi pengalihan sampah daur ulang/RDF. Inovasi ini mengubah tata kelola sampah analog menjadi ekosistem smart logistics yang efisien.
+Bab 1 
+Pendahuluan
+1.1. Latar Belakang Bisnis
+        Tempat pengolahan sampah terpadu (TPST) Bantar Gebang yang menampung lebih dari 7500 ton sampah per hari dari DKI Jakarta sedang berada dalam kondisi kritis akibat keterbatasan kapasitas penampungan. Pemerintah DKI Jakarta telah membangun fasilitas modern seperti Refuse Derived Fuel (RDF) Plant Rorotan dan fasilitas waste-to-energy untuk memproses sampah menjadi bahan bakar alternatif pengganti batu bara. Namun, keberlanjutan fasilitas-fasilitas ini terancam akibat belum terealisasikannya masalah mendasar yaitu inefisiensi sistem logistik dan pengangkutan sampah yang masih analog.
+        Sistem pengelolaan sampah kota saat ini masih bergantung pada pola pengangkutan yang statis dan berbasis jadwal, bukan berbasis volume yang menciptakan tiga inefisiensi kritis:
+1. Pemborosan biaya operasional & BBM: Armada truk sampah sering kali melakukan perjalanan dengan rute tetap untuk menjemput kontainer yang belum penuh, atau sebaliknya, terlambat menjemput kontainer yang sudah meluap.
+2. Ancaman toksisitas udara dan ledakan gas metana di Bantar Gebang akibat penumpukan sampah tanpa pemilahan memicu proses dekomposisi anaerobik sampah organik yang menghasilkan emisi gas metana (CH4) dan Hidrogen Sulfida (H2S) dalam volume sangat besar. Gas metana merupakan gas yang berpotensi menyebabkan pemanasan global 28-36 kali lebih kuat daripada CO2 dalam rentang 100 tahun. Selain memperburuk krisis iklim, akumulasi gas metana di TPA Bantar Gebang menyebabkan pencemaran udara beracun yang menurunkan kualitas hidup dan mengancam kesehatan masyarakat di pemukiman sekitar (Bekasi dan Jakarta Timur), serta menciptakan risiko tinggi kebakaran lahan dan ledakan di TPA.
+3. Kerapuhan bahan baku pabrik RDF: Fasilitas pengolahan RDF membutuhkan pasokan sampah bernilai kalor tinggi (>= 3000 kcal/kg) dengan kadar air rendah. Tanpa adanya sistem pemetaan berbasis data di tingkat TPS, sampah basah (organik) dan sampah kering bercampur, sehingga pasokan bahan baku ke RDF Plant sering tidak memenuhi standar mutu industri.
+4. Kebutuhan transparansi laporan ESG: Pengelola kawasan komersial (gedung perkantoran, mall, dan kawasan industri swasta) menghadapi tekanan regulasi (POJK 51/2017) dan investor untuk menyajikan data pelaporan Environmental, Social, and Governance (ESG) yang tervalidasi terkait jejak karbon dan persentase sampah terdaur ulang (landfill diversion rate).
+        [Nama produk] hadir sebagai jawaban atas tantangan logistik dan pengelolaan sampah perkotaan melalui pendekatan asset-light B2B/B2G SaaS. Dengan mengkombinasikan sensor IoT ultrasonic fill-level, algoritma Dynamic Routing AI, dan predictive RDF Allocation System. [Nama produk] merestrukturisasi manajemen sampah dari sekedar aktivitas pembuangan menjadi rantai logistik yang presisi. Platform ini tidak hanya menghemat anggaran operasional pengangkut sampah, tetapi juga memastikan sampah bernilai tinggi tersalurkan tepat sasaran ke industri pengolahan RDF untuk meringankan daya tampung Bantar Gebang.
+1.2. Tujuan Bisnis
+Tujuan bisnis [nama produk] dirancang dengan prinsip SMART (Specific, Measurable, Achievable, Relevant, Time-bound) yang mencakup tiga dimensi utama yaitu dampak operasional & teknologi, kinerja finansial, serta dampak lingkungan & ESG.
+1. Tujuan operasional & teknologi
+* Efisiensi rute & logistik (tahun 1-2):
+Mengurangi konsumsi BBM dan biaya operasional pemeliharaan armada truk sampah hingga 30%-40% pada lebih dari 600 dari 1168 (berdasarkan data BPS pada tahun 2022) titik TPS/kontainer kawasan komersial melalui penerapan algoritma Dynamic Routing AI.[1]
+* Akurasi alokasi bahan baku RDF (tahun 1-3):
+Mencapai tingkat akurasi prediksi nilai kalor (> 3000 kcal/kg) dan kadar air (< 20%) sebesar > 80% pada Predictive RDF Allocation System guna memenuhi spesifikasi teknis pabrik RDF Rorotan. 
+* Penetrasi perangkat IoT (tahun 1-3):
+Mendistribusikan dan mengintegrasikan sedikitnya 1000 unit IoT ultrasonic fill-level sensor di kawasan komersial Jabodetabek dan fasilitas TPS3R binaan dinas lingkungan hidup.
+2. Tujuan finansial & komersial
+* Pencapaian Annual Recurring Revenue (tahun 1):
+Meraih ARR bernilai positif pada tahun pertama operasional melalui akuisisi setidaknya 5 pengelola gedung komersial (B2B) dan 1 proyek percontohan (pilot project B2G) Pemda DKI Jakarta.
+* Menjaga retention rate sebesar > 90% setiap tahunnya dimulai dari tahun kedua dan seterusnya.
+* Penguasaan pasar dan menargetkan SOM (serviceable obtainable market) pada akhir tahun ketiga dengan mempertahankan gross profit margin di atas 75% karena skema bisnis asset-light SaaS. Hal ini didasari oleh laporan karya SaaS Capital pada tahun 2023 yang memvalidasi bahwa angka gross margin bagi perusahaan B2B SaaS yang sehat berada di kisaran 70%-80%.[2]
+3. Tujuan dampak lingkungan & sosial (ESG)
+* Pengurangan beban TPA Bantar Gebang (tahun 1-3):
+Mengalihkan sedikitnya 8 juta ton sampah per tahun dari penumpukan langsung di TPA Bantar Gebang menuju fasilitas pengolahan terpadu RDF Plant.
+* Reduksi potensi emisi gas metana (CH4) TPA (tahun 1-3):
+Mengurangi potensi pembentukan gas metana di TPST Bantar Gebang serta menurunkan konsentrasi gas beracun akibat pembusukan anaerobik di TPA.
+* Memotong jejak dan mengurangi emisi karbon dari aktivitas transportasi pengangkut sampah yang berbasis jadwal menjadi dinamis.
+* Kepatuhan regulasi dan laporan ESG:
+Membantu perusahaan-perusahaan komersial mitra dalam mencapai kepatuhan penuh terhadap peraturan gubernur DKI Jakarta No. 102/2021 dan kewajiban pelaporan ESG berbasis POJK 51/2017.
+1.3. Manfaat Bisnis
+[Nama Produk] memberikan nilai strategis bagi seluruh pemangku kepentingan dalam operasional pengelolaan sampah perkotaan, mulai dari sektor publik hingga swasta. 
+1. Manfaat bagi pemerintah daerah & dinas lingkungan hidup (B2G):
+* Efisiensi anggaran operasional APBN: Memangkas alokasi biaya BBM dan biaya pemeliharaan armada angkut.
+* Mengurangi beban sampah yang masuk per hari ke TPST Bantar Gebang.
+* Menjamin keberlanjutan produksi bahan bakar RDF.
+2. Manfaat bagi pengelola kawasan komersial (B2B):
+* Peningkatan kebersihan dan sanitasi kawasan, mencegah kontainer sampah meluap dan timbulnya bau tidak sedap menggunakan sistem real-time.
+* Kemudahan mematuhi regulasi peraturan gubernur DKI Jakarta No. 102/2021 tentang kewajiban pengelolaan sampah mandiri tanpa perlu menambah SDM operasional.
+* Otomasi pelaporan ESG, menghasilkan data pengelolaan limbah secara instan dalam format siap audit untuk mematuhi POJK 51/2017 atau kebutuhan laporan investor.
+3. Manfaat bagi lingkungan:
+* Reduksi emisi gas rumah kaca yang dihasilkan oleh armada pengangkut.
+* Meringankan beban kemacetan kota dengan meminimalisir pergerakan armada pengangkut sampah pada jam sibuk menggunakan dynamic routing.
+* Mengurangi emisi gas metana yang dihasilkan oleh limbah sampah serta mengurangi potensi kebakaran besar di TPA yang sering dipicu gas tersebut.
+* Perbaikan kualitas udara dan kesehatan masyarakat sekitar kawasan Bantar Gebang dengan berkurangnya volume sampah yang masuk. 
+________________
+
+
+
+
+
+
+BAB 2 
+ANALISIS PRODUK/JASA
+2.1. Deskripsi Produk/Jasa
+        [Nama Produk] merupakan platform Green Technology berbasis Saas dengan model bisnis B2B/B2G yang dirancang untuk mengoptimalkan manajemen logistik pengangkutan sampah perkotaan. Produk ini 
+1. Sensor IoT fill-level, dimana perangkat keras pintar yang dipasang pada kontainer sampah di Tempat Penampungan Sementara (TPS) maupun gedung komersial seperti mal dan perkantoran. Sensor ini memantau tingkat kapasitas sampah secara real-time dan mengirimkan data ke pusat kendali.
+2. Dynamic Routing Engine berbasis AI yang secara otomatis menghitung rute pengangkutan sampah paling efisien berdasarkan data kapasitas kontainer, lokasi dan kondisi lalu lintas aktual. Selain itu, produk dilengkapi dengan sistem Predictive RDF Allocation yang mampu mengidentifikasi sampah dengan nilai kalor tinggi berdasarkan kondisi lingkungan sekitar TPA dan mengarahkannya ke fasilitas pengolahan RDF Rorotan.
+        Dengan pendekatan asset-light, produk ini tidak memerlukan investasi besar dalam pengadaan armada, melainkan memanfaatkan truk sampah milik pemerintah daerah maupun truk sampah milik pemerintah daerah maupun swasta yang sudah ada. 
+2.2. Keunggulan Produk
+        [Nama Produk] memiliki keunggulan kompetitif yang membedakanya dari sistem pengelolaan sampah konvensional, yaitu: 
+1. Distribusi sampah yang presisi dengan menggunakan sistem AI. Sistem AI menentukan rute tercepat serta pengarahan sampah bernilai kalor tinggi ke RDF; memaksimalkan potensi waste to energy dan mengurangi volume sampah yang masuk ke TPA.
+2. Proses pengangkutan yang transparan dan data yang bersifat akuntabel. Data tersebut dapat digunakan untuk laporan ESG, yang semakin dibutuhkan oleh perusahaan dan pemerintah sebagai komitmen keberlanjutan.
+3. Dapat diimplementasikan berbagai kota dengan skala berbeda tanpa memerlukan perubahan infrastruktur besar.
+4. Pengurangan pemborosan BBM dan mengalihkan sampah ke pengolahan energi, produk ini turut menurunkan emisi karbon dan memperpanjang usia pakai TPA, sejalan dengan target pembangunan berkelanjutan. Dengan demikian, produk memberikan dampak lingkungan positif. 
+2.3. Alur Produksi/Jasa
+        Alur operasional produk digambarkan dalam berapa tahap: 
+1. Pemasangan sensor IoT
+Sensor dipasang pada setiap kontainer sampah di TPS, mal, perkantoran, atau kawasan komersial lainnya. Sensor ini dikalibrasi untuk mengukur tingkat pengisian kontainer secara kontinu. 
+2. Pengiriman data real-time.
+Data tingkat kepenuhan dikirim melalui jaringan komunikasi ke pusat data cloud milik platform. Data ini diperbarui secara periodik baik per jam maupun per 30 menit. 
+3. Analisis dan Pengambilan Keputusan oleh AI
+Saat sensor menemukan kapasitas lebih dari 80%, maka sistem AI akan melakukan Dynamic Routing Engine. Mesin akan mempertimbangkan lokasi kontainer penuh, posisi aktual armada truk, kondisi lalu lintas dan kapasitas dan lokasi RDF Plant serta TPA. Dari semua faktor tersebut, AI akan mempertimbangkan rute yang paling efisien. 
+4. Eksekusi Pengakutan
+Rute akan dikirim ke perangkat gps pengemudi. Truk akan menjemput kontainer penuh dan mengirim ke RDF plant sesuai rute yang telah didapati. 
+5. Pemantauan dan Pelaporan
+Semua perjalanan akan dicatat dan dianalisis. Produk memiliki platform untuk pemerintah atau pengelola kawasan. Platform akan menampilkan informasi tentang volume kalor sampah, penghematan BBM, emisi yang dihindari dan tingkat alokasi sampah ke RDF. 
+6. Evaluasi dan Optimasi Berkelanjutan
+Data historis digunakan sebagai pelatihan data model AI supaya efisiensi dan akurasi rute terus meningkat seiring waktu.
+2.4. Rencana Pengembangan Produk/Jaksa
+        Rencana pembangunan produk disusun dalam berbagai tahap. Tahap dijelaskan sebagai berikut : 
+1. Pilot Project dan Validasi Teknis (Tahun pertama)
+        Pilot akan diuji coba di suatu wilayah kota besar dengan melibatkan 50-100 kontainer dan 15-20 armada truk pemerintah. Setelah implementasi pilot, pengujian akan diawasi untuk memvalidasikan keakuratan sensor IoT, stabilitas koneksi data dan performa Dynamic Routing Engine dalam kondisi lalu lintas seperti macet dan perbaikan jalan.
+2. Expansi Skala Kota dan Integrasi RDF Plant (Tahun kedua dan ketiga)
+        Memperluas cakupan ke seluruh area DKI Jakarta dan sekitarnya. Target yang ingin dicapai adalah 400 lebih kontainer terhubung. Pengintegrasi sistem secara penuh dengan fasilitas RDF Bantar Gebang dan pengelola TPA supaya alokasi sampah berbasis kalor[a] dapat berjalan otomatis. Setelah itu, akan diluncurkan fitur laporan ESG otomatis yang dapat diunduh untuk pelanggan B2B untuk keperluan audit dan lainya. Terakhir, melakukan pengembangan aplikasi mobile untuk pengemudi dengan navigasi real-time dan notifikasi perubahan rute dinamis.[b]
+3. Skala nasional dan Pengembangan Layanan Nilai Tambah (Tahun keempat dan kelima)
+        Penerapan platform akan diperluas untuk kota-kota besar di Indonesia seperti Surabaya, Bandung, Medan dan lain-lain. Modul analisis prediktif akan ditambahkan untuk perencanaan kapasitas TPA jangka panjang dan simulasi kebijakan pengurangan sampah. Membuka layanan marketplace untuk daur ulang, contoh sebagai penjualan bahan baku sekunder dari sampah terpilah yang masih layak dipakai dimana sampah terdeteksi oleh sensor. Produk akan dikasih persiapan sertifikasi internasional untuk meningkatkan kredibilitas produk untuk baik investor nasional maupun internasional. Produk akan menjalankan kemitraan dengan perusahaan telekomunikasi dan penyedia server atau cloud untuk menekan biaya infrastruktur data. 
+
+
+
+
+Bab 3 
+Analisis Pasar
+3.1. Analisis SWOT
+        Strength, Weakness
+3.2. Target dan Segmen Pasar
+        
+3.3. Strategi Pemasaran
+
+
+Bab 4 Rencana Operasional dan Manajemen
+4.1. Struktur Organisasi
+
+
+4.2. Rencana Kebutuhan Sumber Daya Manusia
+
+
+Bab 5 Analisis Keunangan
+5.1. Kebutuhan Modal Awal
+5.2. Struktur Biaya
+5.3. Proyeksi Laba Rugi
+5.4. Analisis Kelayakan Usaha
+
+
+Bab 6 Penutup
+6.1. Kesimpulan
+
+
+
+
+
+
+
+
+V.  Daftar Pustaka
+*Kalo mau tambahin referensi diatas no 1 tolong di-update juga semua numberingnya
+[1] Anagnostopoulos, T., Zaslavsky, A., Kolomvatsos, K., Medvedev, A., Amirian, P., Morley, J., & Hadjiefthymiades, S. (2017). Challenges and Opportunities of Waste Management in IoT-enabled Smart Cities: A Survey.
+[2] SaaS Capital. (2023). B2B SaaS Retention Benchmarks.
+
+
+
+
+
+
+
+
+VI. Lampiran
+Lampiran 1
+Lampiran 2
+        
+[a]rasanya bisa dihapus.
+[b]Bisa dihapus?

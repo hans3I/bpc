@@ -1,0 +1,104 @@
+\section{Bab 5\\Analisis Keuangan}
+\addcontentsline{toc}{section}{Bab 5. Analisis Keuangan}
+
+Seluruh angka pada bab ini adalah proyeksi tim berdasarkan target skala pada Bab 1.2 dan Bab 3.2. Butir yang bersumber pada data pasar riil ditandai dengan sitasi; butir lain merupakan \textbf{asumsi perencanaan} dan diberi label ``(asumsi)'' secara eksplisit.
+
+\subsection{Kebutuhan Modal Awal}
+\label{sec:5-1}
+
+\begin{table}[h!]
+\footnotesize
+\renewcommand{\arraystretch}{0.85}
+\begin{tabularx}{\textwidth}{|X|r|>{\RaggedRight\arraybackslash}X|}
+\hline
+\textbf{Komponen} & \textbf{Biaya (Rp)} & \textbf{Status} \\
+\hline
+Sensor IoT \textit{fill-level} (75 unit $\times$ Rp2.500.000, Microthings DF703) & 187.500.000 & Harga pasar \parencite{microthings2026} \\
+\hline
+Instalasi \& kalibrasi sensor (75 unit) & 22.500.000 & Asumsi \\
+\hline
+Pengembangan MVP platform (\textit{routing} AI, \textit{dashboard}, \textit{backend}) & 100.000.000 & Asumsi \\
+\hline
+Konektivitas IoT NB-IoT 12 bulan (75 unit $\times$ Rp35.000/bulan) & 31.500.000 & Tarif pasar \parencite{telkomseliot2026} \\
+\hline
+Infrastruktur \textit{cloud} awal (\textit{setup} + 12 bulan) & 12.000.000 & Estimasi teknis (biaya \textit{messaging} IoT Core sendiri sangat kecil) \parencite{awsiotcore2026} \\
+\hline
+Legalitas, perizinan usaha, \textit{branding}, materi pitching & 25.000.000 & Asumsi \\
+\hline
+Modal kerja/\textit{buffer} (3 bulan biaya SDM) & 102.000.000 & Asumsi (lihat Bab 4.2) \\
+\hline
+\textbf{Total Modal Awal} & \textbf{480.500.000} & \\
+\hline
+\end{tabularx}
+\caption{Kebutuhan modal awal (skala \textit{pilot} 75 kontainer)}
+\end{table}
+
+\subsection{Struktur Biaya}
+\label{sec:5-2}
+
+\textbf{Biaya tetap (bulanan):} gaji SDM (Bab 4.2), langganan \textit{cloud}/infrastruktur, ruang kerja/\textit{co-working}, administrasi \& asuransi.
+
+\textbf{Biaya variabel:} konektivitas per sensor (Rp25.000--40.000/bulan) \parencite{telkomseliot2026}, biaya instalasi/pemeliharaan lapangan per titik baru, penggantian baterai sensor, komisi penjualan B2B.
+
+\textbf{Target \textit{gross margin}:} \ProductName{} menargetkan \textit{gross profit margin} di atas 70\% pada kondisi mapan (tahun ketiga), merujuk pada median \textit{gross margin} 74\% untuk survei perusahaan B2B SaaS privat oleh SaaS Capital \parencite{saascapitalmargin2019}. Pada tahun pertama dan kedua, margin gabungan (\textit{blended}) lebih rendah karena porsi pendapatan penjualan perangkat sensor (bermargin lebih tipis) masih besar dibanding pendapatan langganan berulang; margin diproyeksikan naik seiring porsi pendapatan SaaS berulang membesar (lihat Bab 5.3).
+
+\subsection{Proyeksi Laba Rugi}
+\label{sec:5-3}
+
+\begin{table}[h!]
+\footnotesize
+\renewcommand{\arraystretch}{0.85}
+\begin{tabularx}{\textwidth}{|X|r|r|r|}
+\hline
+\textbf{(dalam Rp juta)} & \textbf{Tahun 1} & \textbf{Tahun 2} & \textbf{Tahun 3} \\
+\hline
+Pendapatan lisensi SaaS B2G & 500,0 & 1.000,0 & 1.500,0 \\
+Pendapatan penjualan unit sensor & 175,0 & 1.137,5 & 2.100,0 \\
+Pendapatan langganan B2B & 150,0 & 1.350,0 & 4.200,0 \\
+\hline
+\textbf{Total Pendapatan} & \textbf{825,0} & \textbf{3.487,5} & \textbf{7.800,0} \\
+\hline
+Harga Pokok Penjualan (\textit{hardware}, konektivitas, instalasi) & 386,8 & 1.004,5 & 1.974,0 \\
+\hline
+\textbf{Laba Kotor} & \textbf{438,3} & \textbf{2.483,0} & \textbf{5.826,0} \\
+\textit{Margin kotor} & \textit{53,1\%} & \textit{71,2\%} & \textit{74,7\%} \\
+\hline
+Beban Operasional (SDM, \textit{cloud}, pemasaran, administrasi) & 602,0 & 1.156,0 & 2.000,0 \\
+\hline
+\textbf{EBITDA} & \textbf{(163,8)} & \textbf{1.327,0} & \textbf{3.826,0} \\
+\hline
+\end{tabularx}
+\caption{Proyeksi laba rugi 3 tahun (asumsi target skala, lihat Bab 1.2 \& 3.2)}
+\end{table}
+
+Margin kotor diproyeksikan naik dari 53\% (tahun 1, didominasi penjualan perangkat) menuju 75\% (tahun 3, didominasi pendapatan langganan berulang) --- selaras dengan tolok ukur SaaS Capital di atas \parencite{saascapitalmargin2019}. Kerugian operasional pada tahun pertama merupakan pola umum \textit{startup} tahap \textit{pilot} dan diproyeksikan tertutup pada tahun kedua.
+
+\subsection{Analisis Kelayakan Usaha}
+\label{sec:5-4}
+
+\textbf{Tingkat diskonto} yang digunakan adalah 12\%, ditriangulasi dari konvensi studi kelayakan bisnis Indonesia (umumnya 9--14\%) \parencite{kasmirjakfar}, suku bunga kredit UMKM (\textpm{}10,5\%) \parencite{ojk2026lendingrate}, dan estimasi \textit{cost of equity} berbasis \textit{yield} obligasi pemerintah 10 tahun (\textpm{}7,0--7,2\%) ditambah premi risiko ekuitas Indonesia (\textpm{}6,7\%) \parencite{sbn10y2026,damodaran2026}.
+
+\begin{table}[h!]
+\footnotesize
+\renewcommand{\arraystretch}{0.85}
+\begin{tabularx}{\textwidth}{|X|r|}
+\hline
+\textbf{Indikator} & \textbf{Nilai} \\
+\hline
+Modal awal (tahun 0) & Rp480,5 juta \\
+\hline
+NPV (3 tahun, diskonto 12\%) & \textbf{+Rp3.154,7 juta} \\
+\hline
+\textit{Payback period} & \textpm{}1 tahun 6 bulan \\
+\hline
+IRR (indikatif) & \textpm{}130\% \\
+\hline
+BEP lini langganan B2B (kontainer aktif/tahun, di luar pendapatan B2G \& penjualan unit) & \textpm{}114 kontainer \\
+\hline
+\end{tabularx}
+\caption{Ringkasan kelayakan usaha (asumsi proyeksi)}
+\end{table}
+
+NPV positif dan \textit{payback period} \textpm{}1,5 tahun menunjukkan proyek layak dijalankan pada skenario dasar. IRR yang sangat tinggi merupakan ciri umum proyeksi \textit{startup} tahap awal dengan basis pendapatan kecil pada tahun pertama --- NPV dan \textit{payback period} adalah indikator yang lebih stabil untuk dijadikan acuan utama dibanding IRR pada kasus ini.
+
+\textbf{Analisis sensitivitas:} pada skenario konservatif (pendapatan $-$20\%, biaya $+$20\% di seluruh tahun), NPV tetap positif namun menyusut signifikan menjadi \textpm{}Rp253,9 juta --- menunjukkan proyek masih layak, tetapi dengan margin keamanan yang jauh lebih tipis dibanding skenario dasar. Ini menegaskan pentingnya pencapaian target akuisisi pelanggan pada Bab 1.2 dan 3.2 secara konsisten.

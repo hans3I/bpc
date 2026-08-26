@@ -1,0 +1,54 @@
+\section{Bab 4\\Rencana Operasional dan Manajemen}
+\addcontentsline{toc}{section}{Bab 4. Rencana Operasional dan Manajemen}
+
+\subsection{Struktur Organisasi}
+\label{sec:4-1}
+
+Pada tahun pertama, struktur organisasi \ProductName{} bertumpu pada tiga pendiri yang merangkap peran inti, didukung oleh staf operasional lapangan. Pembagian peran berikut merupakan asumsi kerja tim dan dapat disesuaikan seiring berjalannya operasi.
+
+\begin{table}[h!]
+\footnotesize
+\renewcommand{\arraystretch}{0.85}
+\begin{tabularx}{\textwidth}{|l|l|X|}
+\hline
+\textbf{Peran} & \textbf{Pemegang} & \textbf{Tanggung jawab utama} \\
+\hline
+CEO / \textit{Co-Founder} & Hansel Stevan Boike & Strategi bisnis, hubungan B2G/kemitraan pemerintah, keuangan \\
+\hline
+CTO / \textit{Co-Founder} & Bryan Patrick Kurniawan & Pengembangan platform (sensor firmware, \textit{Dynamic Routing AI}, \textit{Predictive RDF Allocation}), infrastruktur \textit{cloud} \\
+\hline
+COO / \textit{Co-Founder} & Michael Hau & Operasional lapangan, pengadaan \& pemasangan sensor, hubungan B2B \\
+\hline
+Field Deployment Technician & (perekrutan tahun 1) & Instalasi, kalibrasi, dan pemeliharaan sensor IoT di lapangan \\
+\hline
+\end{tabularx}
+\caption{Struktur organisasi tahun pertama (asumsi pembagian peran tim)}
+\end{table}
+
+Pada tahun kedua dan ketiga, struktur diperluas dengan penambahan \textit{Data/AI Engineer} untuk pengembangan model \textit{routing} dan alokasi RDF, serta staf \textit{Business Development}/\textit{Sales} untuk akselerasi akuisisi mitra B2B, sejalan dengan target SOM pada Bab 3.2.
+
+\subsection{Rencana Kebutuhan Sumber Daya Manusia}
+\label{sec:4-2}
+
+Estimasi gaji berikut disusun dari kisaran gaji pasar tenaga kerja Jakarta tahun 2026 untuk peran sejenis (bukan gaji spesifik perusahaan), dan disesuaikan ke titik konservatif dalam kisaran tersebut agar realistis bagi \textit{startup} tahap awal:
+
+\begin{table}[h!]
+\footnotesize
+\renewcommand{\arraystretch}{0.85}
+\begin{tabularx}{\textwidth}{|X|c|r|r|>{\RaggedRight\arraybackslash}X|}
+\hline
+\textbf{Peran} & \textbf{Jumlah} & \textbf{Gaji/bulan (Rp)} & \textbf{Biaya/tahun (Rp)} & \textbf{Acuan kisaran pasar} \\
+\hline
+\textit{Co-Founder} (CEO/CTO/COO) & 3 & 5.000.000 & 180.000.000 & Gaji pendiri minimal (asumsi, bootstrap) \\
+\hline
+Software Engineer (junior--mid) & 1 & 12.000.000 & 144.000.000 & Rp 9--18 jt/bulan \parencite{gajiswe2026} \\
+\hline
+Field Deployment Technician & 1 & 7.000.000 & 84.000.000 & Rp 5,5--9 jt/bulan; lantai UMP DKI Rp 5,73 jt \parencite{gajiteknisi2026,umpjakarta2026} \\
+\hline
+\multicolumn{3}{|>{\raggedleft\arraybackslash}p{7cm}|}{\textbf{Total biaya SDM tahun 1 (asumsi)}} & \textbf{408.000.000} & \\
+\hline
+\end{tabularx}
+\caption{Rencana kebutuhan SDM tahun 1}
+\end{table}
+
+\textbf{Tahun kedua} menambah 1 \textit{Data/AI Engineer} (Rp 15 juta/bulan, kisaran pasar Rp 12--25 juta \parencite{gajiai2026}) dan 1 staf \textit{Business Development} (Rp 8 juta/bulan pokok + komisi, kisaran pasar Rp 6--12 juta \parencite{gajibd2025}), serta 1 tambahan \textit{Field Deployment Technician} mengikuti perluasan cakupan ke $>$400 kontainer. \textbf{Tahun ketiga} menambah staf lapangan dan \textit{support} sejalan dengan target 1.000 unit sensor. Seluruh angka headcount dan besaran gaji di atas merupakan \textbf{asumsi perencanaan tim}, digunakan sebagai dasar proyeksi biaya pada Bab 5, dan akan disesuaikan dengan kondisi pendanaan aktual.

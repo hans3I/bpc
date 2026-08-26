@@ -1,0 +1,294 @@
+
+--- PAGE 1 ---
+Informatics 
+Festival 2026
+IT Competition
+Guide Book
+Business Plan Competition
+--- PAGE 2 ---
+Deskripsi Umum
+BPC IFest 2026 adalah kompetisi berskala nasional yang 
+diselenggarakan oleh Himpunan Mahasiswa T eknik Informatika 
+Universitas Padjadjaran (HIMA TIF UNP AD) sebagai bagian dari acara 
+Informatics Festival (IFest) 2026.
+
+Business Plan Competition (BPC) IFEST 2026 adalah kompetisi rencana 
+bisnis berbasis teknologi yang mengambil tema "Waves of Innovation: 
+Structuring T ech for Real Impact" , di mana peserta ditantang untuk 
+merancang inovasi model bisnis mereka sendiri secara kreatif, 
+terstruktur , dan relevan dengan kebutuhan pasar , sehingga mampu 
+menghasilkan dampak nyata (real impact) yang berkelanjutan. Mulai dari 
+penyusunan proposal, penyisihan oleh dewan juri, mentoring bersama 
+praktisi, hingga presentasi akhir (pitching) di hadapan dewan juri.
+T ujuan Kegiatan
+Mendorong minat masyarakat umum khususnya generasi muda untuk 
+berinovasi agar mampu mengembangkan ide bisnis dan teknologi 
+hingga menjadi sebuah startup yang inovatif .
+Memperkenalkan cara mengembangkan sebuah bisnis kreatif kepada 
+masyarakat umum.
+Mengasah kemampuan komunikasi dan pitching yang persuasif 
+dalam mempresentasikan ide bisnis secara profesional.
+Ketentuan Dasar Peserta
+Sifat Kompetisi: Dilaksanakan secara online.
+T arget Peserta: Mahasiswa aktif S1/D4/D3 yang dibuktikan dengan 
+kartu pelajar/mahasiswa.
+Format Tim: Beranggotakan 2-3 orang per tim.
+T ahapan Acara: Diselenggarakan dalam dua babak, yaitu babak 
+penyisihan dan babak final.
+Penghargaan & Hadiah
+Juara 1: Uang Tunai + Piagam Penghargaan
+Juara 2: Uang Tunai + Piagam Penghargaan
+Juara 3: Uang Tunai + Piagam Penghargaan
+Semua Peserta: Mendapatkan e-sertifikat peserta.
+--- PAGE 3 ---
+Timeline
+Kegiatan Tanggal pelaksanan Keterangan
+Pendaftaran Early Bird 27 Juli – 2 Agustus 2026 Mengikuti tata cara di bagian 
+akhir
+Pendaftaran Normal 3 Agustus – 20 Agustus 
+2026
+Mengikuti tata cara di bagian 
+akhir
+Pengumpulan Proposal 27 Juli - 30 Agustus 2026 Pengumpulan proposal melalui 
+W ebsite
+Pengumuman Finalis 13 September 2026 Pengumuman finalis melalui 
+media sosial dan email
+T echnical Meeting Finalis 15 September 2026 Penjelasan teknis untuk finalis
+Mentoring
+Pengumpulan PPT / Pitch 
+Deck
+Pitching Day
+Pengumuman Juara
+18 September 2026
+1 4  September – 1 9  
+September 2026
+20 September 2026
+03 O ktober 2026
+Mentoring untuk finalis melalui 
+media zoom
+Pengumpulan PPT / Pitchdeck 
+melalui W ebsite
+Pelaksanaan Pitching Day melalui 
+media zoom
+Disampaikan melalui email dan 
+seluruh media I Fest 2026
+--- PAGE 4 ---
+Ketentuan Perlombaan
+Ketentuan Umum
+Peserta merupakan mahasiswa aktif S1/D4/D3 yang dibuktikan 
+dengan kartu pelajar/mahasiswa dan mendaftar melalui web resmi 
+IFest 2026.
+Satu tim terdiri atas 1-3 orang peserta (sudah termasuk ketua tim). 
+Anggota dalam satu tim diperbolehkan berasal dari institusi/lembaga 
+yang berbeda.
+Peserta yang dapat mengikuti kompetisi merupakan peserta yang 
+sudah terdaftar dan terverifikasi oleh panitia.
+Peserta bukan merupakan bagian dari kepanitiaan Informatics 
+Festival 2026.
+Setiap peserta hanya boleh terdaftar dalam satu tim dan tidak boleh 
+digantikan oleh orang lain selama rangkaian lomba berlangsung.
+Peserta yang telah lolos babak penyisihan diwajibkan mengikuti 
+rangkaian babak final.
+Panitia berhak mengubah aturan dalam guidebook. Bila ada 
+perubahan, akan diinformasikan melalui email dan/atau Server 
+Discord IFest 2026.
+Panitia berhak mendiskualifikasi peserta yang terbukti melakukan 
+kecurangan ataupun melanggar peraturan yang ada.
+Keputusan panitia dan juri bersifat mutlak dan tidak dapat diganggu 
+gugat.
+Ketentuan Babak Penyisihan
+Babak penyisihan dilaksanakan secara online menggunakan sistem 
+submission-based.
+Pada tahap ini, setiap tim akan membuat proposal dengan tema dan 
+sub tema yang telah ditentukan.
+Pada setiap proposal wajib melampirkan BMC sederhana.
+Sebanyak 10 tim terbaik  berhak melanjutkan ke babak final.
+Selama kompetisi berlangsung, setiap tim dilarang bekerja sama 
+dalam bentuk apa pun dengan tim lain.
+--- PAGE 5 ---
+Kriteria Penilaian
+Babak Penyisihan
+No Aspek Penilaian Deskripsi
+1 Proposal Penilaian proposal dilakukan sepenuhnya oleh dewan juri 
+berdasarkan kelengkapan, kelayakan, dan kualitas dokumen 
+proposal yang dikirimkan peserta berdasarkan kriteria yang 
+telah ditetapkan oleh panitia.
+T ema & Subtema1. T ema Utama 
+“Waves of Innovation: Structuring T ech for Real Impact”  
+2. Subtema 
+Setiap tim wajib memilih minimal 1 (satu) subtema di bawah ini sebagai 
+landasan atau fokus dari inovasi bisnis yang dikembangkan:
+Smart Cities & Communities 
+Pengembangan solusi berbasis teknologi yang bertujuan meningkatkan 
+kualitas layanan publik, efisiensi mobilitas urban, sistem keamanan 
+terpadu, serta konektivitas antaranggota masyarakat.
+Industry 5.0 Innovation 
+Inovasi yang mengintegrasikan teknologi canggih dengan kebutuhan 
+manusia untuk menciptakan nilai dan dampak yang lebih besar .
+Green & Sustainable T echnology 
+Solusi teknologi ramah lingkungan yang mendukung transisi menuju 
+keberlanjutan global, mencakup bidang energi terbarukan, smart grid, 
+manajemen karbon, ekosistem circular economy, hingga penerapan 
+green computing.
+Digital Ecosystem & Super Apps 
+Pengembangan platform digital terintegrasi yang menawarkan 
+multiproduk atau layanan (all-in-one ecosystem) dalam satu aplikasi 
+untuk memberikan kemudahan dan nilai tambah bagi pengguna (seperti 
+model bisnis Gojek, Grab, WeChat, dan sejenisnya).
+
+*Notes : Untuk semua subtema yang dipilih, setiap inovasi bisnis yang 
+dikembangkan oleh tim WAJIB mencakup pengimplementasian teknologi      
+--- PAGE 6 ---
+Sistematika Penulisan BPC
+I. COVER
+II. KA T A PENGANT AR
+III. DAFT AR ISI
+IV . EXECUTIVE SUMMARY
+
+BAB 1 Pendahuluan
+1.1 Latar Belakang Bisnis
+1.2 Tujuan Bisnis
+1.3 Manfaat Bisnis
+
+Bab 2 Analisis Produk/Jasa
+2.1 Deskripsi Produk/Jasa
+2.2 Keunggulan Produk
+2.3 Alur Produksi/Jasa
+2.4 Rencana Pengembangan Produk/Jasa
+
+Bab 3 Analisis Pasar
+3.1 Analisis SWOT
+3.2 T arget dan Segmen Pasar
+3.3 Strategi Pemasaran
+
+Bab 4 Rencana Operasional dan Manajemen
+4.1 Struktur Organisasi
+4.2 Rencana Kebutuhan Sumber Daya Manusia
+
+Bab 5 Analisis Keuangan
+5.1 Kebutuhan Modal Awal
+5.2 Struktur Biaya
+5.3 Proyeksi Laba Rugi
+5.4 Analisis Kelayakan Usaha
+
+Bab 6 Penutup
+6.1 Kesimpulan
+
+V . DAFT AR PUST AKA
+ VI. LAMPIRAN 
+Lampiran 1 : BMC
+Lampiran 2 : Biodata
+--- PAGE 7 ---
+Ketentuan Diskualifikasi
+Tim atau peserta akan langsung didiskualifikasi apabila:
+Peserta terdaftar di lebih dari satu tim.
+Tim melanggar atau tidak mengikuti ketentuan-ketentuan yang telah 
+ditetapkan dalam guidebook.
+Tim melakukan tindakan kecurangan, plagiarisme, bekerja sama 
+dengan tim lain.
+Tim tidak mengonfirmasi kehadiran atau tidak hadir secara lengkap 
+pada babak final tanpa alasan yang jelas kepada panitia.
+Biaya & Alur Pendaftaran
+Biaya Registrasi
+Early Bird Registration: Rp 100.000/tim
+Normal Registration: Rp 110.000/tim
+Alur Pendaftaran
+Pendaftaran lomba hanya dilakukan oleh Ketua Tim.
+Ketua tim mengisi formulir pendaftaran pada website resmi IFest 
+2026.
+Ketua tim mengunggah berkas wajib seluruh anggota tim:
+ID Card / Kartu T anda Mahasiswa (Format Penamaan: 
+KTM_Nama Tim_NamaPeserta).
+Bukti screenshot upload Twibbon / Poster di Instagram masing-
+masing peserta .
+Bukti follow akun Instagram @ifestunpad.
+Ketua tim melakukan pembayaran dalam bentuk Rupiah (IDR) 
+melalui metode yang tersedia di website resmi.
+Dokumen atau aset pendukung pendaftaran dapat diakses pada 
+tautan: bit.ly/Kebutuhan_PendaftaranBPCIFEST2026
+Setelah bukti pembayaran diunggah, panitia akan melakukan 
+verifikasi berkas.
+Panitia akan mengirimkan email konfirmasi pendaftaran beserta link 
+menuju Server Discord IFest 2026 kepada email ketua tim.
+--- PAGE 8 ---
+Alur Pendaftaran
+Pendaftaran lomba dilakukan oleh seluruh anggota tim.
+Seluruh anggota tim (termasuk Ketua Tim) membuat akun secara 
+mandiri pada situs resmi IFest 2026.
+Ketua tim membuat tim baru di dashboard dan menentukan nama 
+tim, lalu akan mendapatkan Kode Tim (T eam Code) unik setelah tim 
+berhasil dibuat.
+Anggota tim bergabung ke dalam tim dengan memasukkan Kode 
+Tim tersebut pada akun masing-masing.
+Seluruh anggota tim mengisi formulir pendaftaran pada dashboard 
+masing-masing, meliputi data diri berikut:
+Nama Lengkap
+Asal Institusi
+Jurusan
+T ahun Angkatan
+Email Aktif
+Nomor WhatsApp
+Sumber Informasi (bagaimana mengetahui IFEST)
+Seluruh anggota tim mengunggah berkas wajib berikut:
+Kartu T anda Mahasiswa (KTM)
+Bukti screenshot upload Twibbon (Slide 1) dan Poster (Slide 2) di 
+Instagram
+Link postingan Twibbon dan Poster di Instagram
+Bukti follow akun Instagram @ifestunpad
+Bukti screenshot upload Instagram Story sesuai mata lomba yang 
+dipilih
+CV (bersifat opsional, akan masuk ke dalam talent pool yang dapat 
+dilihat oleh perusahaan sponsor dengan peluang untuk direkrut 
+secara langsung)
+Dokumen dan aset pendukung pendaftaran dapat diakses pada 
+tautan: bit.ly/Kebutuhan RegistrasiIFEST2026
+Ketua tim melakukan pembayaran dalam bentuk Rupiah (IDR) 
+melalui metode yang tersedia di website resmi.
+Setelah bukti pembayaran diunggah, panitia akan melakukan 
+verifikasi berkas pendaftaran dan pembayaran. Status verifikasi 
+dapat dipantau secara real-time melalui dashboard peserta.
+Setelah tim dinyatakan lolos verifikasi, link menuju Server Discord 
+IFest 2026 akan tersedia pada halaman dashboard peserta.
+--- PAGE 9 ---
+Format Penulisan
+Ukuran Kertas: Seluruh dokumen wajib diformat menggunakan 
+kertas berukuran A4.
+Pengaturan Batas T epi (Margin): Atur margin halaman dengan 
+rincian 4 cm pada sisi kiri, serta masing-masing 3 cm untuk sisi atas, 
+kanan, dan bawah.
+Format Judul: Judul utama harus dicetak tebal (bold) dengan posisi 
+di tengah (center). Pastikan menggunakan jenis huruf Times New 
+Roman berukuran 14 pt dengan jarak antarbaris (spasi) 1,5.
+Format Isi T eks: Untuk uraian pada bagian isi proposal, gunakan 
+font Times New Roman berukuran 12 pt, berspasi 1,5, dengan 
+perataan teks kanan-kiri (justify).
+Penomoran Halaman: Nomor halaman diletakkan di sudut kanan 
+bawah menggunakan angka Arab (seperti 1, 2, 3, dan seterusnya). 
+Penomoran ini diberlakukan mulai dari bab Pendahuluan sampai 
+dengan bagian Lampiran.
+Aturan Kutipan: Segala bentuk pengutipan (sitasi) di dalam teks 
+harus merujuk pada standar gaya penulisan American 
+Psychological Association (AP A) edisi ke-7.
+Daftar Pustaka: Sama halnya dengan sitasi, penyusunan daftar 
+rujukan atau daftar pustaka juga wajib mematuhi pedoman format 
+AP A Style edisi ke-7.
+Format Pengumpulan: Berkas akhir BPC wajib diunggah atau 
+diserahkan dalam wujud dokumen PDF . Panitia tidak menerima 
+pengumpulan proposal dalam format selain PDF .
+Batasan Halaman: T otal halaman proposal maksimal 15 halaman, 
+dihitung mulai dari Bab 1 hingga bagian Kesimpulan.
+Cover proposal dan BMC wajib disusun mengikuti template yang 
+telah disediakan, termasuk keharusan menyertakan logo resmi 
+yang sama seperti pada template. Logo dan template tersebut 
+dapat diunduh melalui tautan:
+bit.ly/Logodan T emplateBPCIFEST2026
+--- PAGE 10 ---
+Contact Person
+Jika memiliki pertanyaan lebih lanjut, silakan hubungi narahubung 
+berikut:
+
+Antonio  Reinhart Saian
+WA: +62 813 1919 4711
+
+Muhammad Rama Naradya
+WA : +62812 9223 4293
