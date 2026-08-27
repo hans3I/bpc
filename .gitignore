@@ -10,3 +10,6 @@ proposal/*.run.xml
 proposal/*.synctex.gz
 proposal/compile*.log
 proposal/compile*.txt
+
+# Word lock files (created while a .docx is open)
+~$*.docx
