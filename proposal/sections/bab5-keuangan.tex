@@ -1,12 +1,12 @@
 \section{Bab 5\\Analisis Keuangan}
 \addcontentsline{toc}{section}{Bab 5. Analisis Keuangan}
 
-Seluruh angka pada bab ini adalah proyeksi tim berdasarkan target skala pada Bab 1.2 dan Bab 3.2. Butir yang bersumber pada data pasar riil ditandai dengan sitasi; butir lain merupakan \textbf{asumsi perencanaan} dan diberi label ``(asumsi)'' secara eksplisit. Proyeksi menggunakan horizon lima tahun, selaras dengan rencana pengembangan pada Bab 2.4.
+Seluruh angka pada bab ini adalah proyeksi tim berdasarkan target skala Bab 1.2/3.2; butir yang bersumber pada data pasar riil disitasi, sisanya berlabel \textbf{(asumsi)}. Proyeksi menggunakan horizon lima tahun, selaras dengan Bab 2.4.
 
 \subsection{Kebutuhan Modal Awal}
 \label{sec:5-1}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \footnotesize
 \renewcommand{\arraystretch}{0.85}
 \begin{tabularx}{\textwidth}{|X|r|>{\RaggedRight\arraybackslash}X|}
@@ -33,13 +33,13 @@ Modal kerja/\textit{buffer} (3 bulan beban operasional penuh) & 150.000.000 & As
 \caption{Kebutuhan modal awal (skala \textit{pilot} 75 kontainer)}
 \end{table}
 
-Sensor bersifat \textit{pass-through}: dibeli pada modal awal, disalurkan ke pelanggan B2B/B2G, dan pendapatannya diakui pada saat penjualan. Konektivitas dan \textit{cloud} 12 bulan pada modal awal digunakan untuk \textit{pilot} 75 kontainer; pada tahun operasional berikutnya, konektivitas dibebankan ke COGS per kontainer berlangganan dan tidak dihitung ganda di Bab 5.3.
+Sensor bersifat \textit{pass-through}: dibeli pada modal awal, disalurkan ke pelanggan, dan pendapatannya diakui saat penjualan. Konektivitas/\textit{cloud} 12 bulan pada modal awal dipakai untuk \textit{pilot} 75 kontainer; tahun berikutnya konektivitas dibebankan ke COGS per kontainer berlangganan dan tidak dihitung ganda di Bab 5.3.
 
 \subsection{Struktur Biaya}
 \label{sec:5-2}
 
 \textbf{Harga jual} (asumsi model bisnis tim):
-\begin{table}[htbp]
+\begin{table}[H]
 \footnotesize
 \renewcommand{\arraystretch}{0.85}
 \begin{tabularx}{\textwidth}{|>{\RaggedRight\arraybackslash}X|r|>{\RaggedRight\arraybackslash}X|}
@@ -62,12 +62,12 @@ Modul pelaporan ESG / analitik premium & Rp50.000--100.000/bulan & Tambahan opsi
 
 \textbf{Biaya variabel:} konektivitas per sensor (Rp25.000--40.000/bulan) \parencite{telkomseliot2026} yang dibebankan ke COGS pada kontainer berlangganan, biaya instalasi/pemeliharaan lapangan per titik baru, penggantian baterai sensor, komisi penjualan B2B.
 
-\textbf{Target \textit{gross margin}:} \ProductName{} menargetkan \textit{gross profit margin} di atas 55\% pada tahun ketiga seiring porsi pendapatan langganan berulang membesar. Pada tahun pertama dan kedua, margin gabungan (\textit{blended}) lebih rendah karena porsi pendapatan penjualan perangkat sensor (bermargin tipis) masih besar; margin diproyeksikan naik seiring porsi pendapatan SaaS berulang membesar (lihat Bab 5.3). Benchmark B2B SaaS menunjukkan median \textit{gross margin} 74\% untuk perusahaan privat \parencite{saascapitalmargin2019}; \ProductName{} menargetkan mendekatinya pada skala penuh.
+\textbf{Target \textit{gross margin}:} \ProductName{} menargetkan \textit{gross profit margin} di atas 55\% pada tahun ketiga, naik seiring porsi pendapatan langganan berulang membesar; pada tahun pertama--kedua margin gabungan lebih rendah karena porsi penjualan perangkat (bermargin tipis) masih besar (lihat Bab 5.3). Benchmark B2B SaaS menunjukkan median \textit{gross margin} 74\% untuk perusahaan privat \parencite{saascapitalmargin2019}; \ProductName{} menargetkan mendekatinya pada skala penuh.
 
 \subsection{Proyeksi Laba Rugi}
 \label{sec:5-3}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \footnotesize
 \renewcommand{\arraystretch}{0.85}
 \begin{tabularx}{\textwidth}{|X|r|r|r|r|r|}
@@ -100,16 +100,16 @@ PPh badan 22\% & 0 & 0 & 87,1 & 314,6 & 585,6 \\
 \caption{Proyeksi laba rugi 5 tahun (asumsi target skala, lihat Bab 1.2 \& 3.2)}
 \end{table}
 
-Margin kotor diproyeksikan naik dari 15\% (tahun 1, didominasi penjualan perangkat \textit{pass-through}) menuju \textpm{}50\% pada skala penuh. Kerugian operasional pada tahun pertama dan kedua merupakan pola umum \textit{startup} tahap \textit{pilot}; laba bersih positif mulai tahun ketiga.
+Margin kotor naik dari 15\% (tahun 1, didominasi penjualan perangkat \textit{pass-through}) menuju \textpm{}50\% pada skala penuh; kerugian tahun pertama--kedua merupakan pola umum \textit{startup} tahap \textit{pilot}, dengan laba bersih positif mulai tahun ketiga.
 
 \textbf{Catatan penting --- EBITDA bukan arus kas bebas.} Angka di atas belum mencakup \textit{working capital} (piutang B2G yang umumnya 30--60 hari) dan kebutuhan pembelian sensor untuk mencapai skala 400/1.000 unit pada Y2/Y3. Dalam model \textit{pass-through}, pembelian sensor untuk unit terjual dibebankan ke HPP pada tahun yang sama, sehingga tidak menciptakan kebutuhan modal kerja tambahan yang besar untuk persediaan; namun, penundaan pembayaran B2G tetap memengaruhi arus kas aktual. Proyeksi arus kas dan kebutuhan modal kerja dirinci pada Bab 5.4.
 
 \subsection{Analisis Kelayakan Usaha}
 \label{sec:5-4}
 
-\textbf{Tingkat diskonto} yang digunakan adalah 12\%, ditriangulasi dari konvensi studi kelayakan bisnis Indonesia (umumnya 9--14\%) \parencite{kasmirjakfar}, suku bunga kredit UMKM (\textpm{}10,5\%) \parencite{ojk2026lendingrate}, dan estimasi \textit{cost of equity} berbasis \textit{yield} obligasi pemerintah 10 tahun (\textpm{}7,0--7,2\%) ditambah premi risiko ekuitas Indonesia (\textpm{}6,7\%) \parencite{sbn10y2026,damodaran2026} --- menghasilkan \textpm{}13,7\%; 12\% diambil sebagai titik moderat di dalam rentang tersebut.
+\textbf{Tingkat diskonto} 12\% ditriangulasi dari konvensi studi kelayakan bisnis Indonesia (9--14\%) \parencite{kasmirjakfar}, suku bunga kredit UMKM (\textpm{}10,5\%) \parencite{ojk2026lendingrate}, dan estimasi \textit{cost of equity} (yield obligasi 10 tahun \textpm{}7,0--7,2\% + premi risiko ekuitas Indonesia \textpm{}6,7\%) \parencite{sbn10y2026,damodaran2026} --- menghasilkan \textpm{}13,7\%; 12\% diambil sebagai titik moderat.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \footnotesize
 \renewcommand{\arraystretch}{0.85}
 \begin{tabularx}{\textwidth}{|X|r|}
@@ -134,4 +134,4 @@ NPV pada diskonto 50\% & \textendash{}Rp380,0 juta \\
 
 NPV tetap positif hingga tingkat diskonto \textpm{}30\%, jauh di atas \textit{cost of equity} \textpm{}13,7\% dan suku bunga kredit \textpm{}10,5\%, menunjukkan proyek tetap layak bahkan dengan \textit{hurdle rate} yang sangat konservatif; IRR \textpm{}31,6\% memberi \textit{buffer} cukup besar terhadap fluktuasi biaya modal.
 
-\textbf{Analisis sensitivitas skenario:} pada skenario konservatif (pendapatan $-$20\%, biaya $+$20\% di seluruh tahun), NPV pada diskonto 12\% menjadi \textpm{}\textbf{$-$1.829 juta} dan IRR \textpm{$-$49\%}. Ini menegaskan bahwa kelayakan bergantung pada tercapainya target akuisisi (Bab 1.2 dan 3.2). Langkah mitigasi yang direkomendasikan: mengamankan kontrak \textit{master service agreement} B2G minimal satu tahun sebelum ekspansi skala, serta menjaga \textit{gross revenue retention} $>$90\% agar basis pendapatan berulang tidak tergerus. NPV positif \textpm{}Rp975 juta, IRR \textpm{}31,6\%, dan \textit{payback period} \textpm{}3,2 tahun menunjukkan proyek layak dijalankan pada skenario dasar; IRR yang tinggi merupakan ciri umum proyeksi \textit{startup} tahap awal --- NPV dan \textit{payback period} adalah indikator yang lebih stabil untuk acuan utama. Seluruh angka tetap proyeksi berbasis asumsi tim dan akan diuji melalui validasi lapangan pada fase pilot.
+\textbf{Analisis sensitivitas skenario:} pada skenario konservatif (pendapatan $-$20\%, biaya $+$20\%), NPV pada diskonto 12\% menjadi \textpm{}\textbf{$-$1.829 juta} dan IRR \textpm{$-$49\%} --- kelayakan bergantung pada pencapaian target akuisisi (Bab 1.2 dan 3.2). Mitigasi yang direkomendasikan: mengamankan \textit{master service agreement} B2G minimal satu tahun sebelum ekspansi skala, serta menjaga \textit{gross revenue retention} $>$90\%. Seluruh angka tetap proyeksi berbasis asumsi tim dan akan diuji melalui validasi lapangan pada fase pilot.

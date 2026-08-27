@@ -4,7 +4,7 @@
 \subsection{Analisis SWOT}
 \label{sec:3-1}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \footnotesize
 \renewcommand{\arraystretch}{0.9}
 \begin{tabularx}{\textwidth}{|>{\RaggedRight\arraybackslash}X|>{\RaggedRight\arraybackslash}X|}
@@ -36,8 +36,8 @@
 &
 \begin{itemize}[leftmargin=*,topsep=2pt]
   \item \textbf{DLH DKI membangun in-house}: DLH telah mengoperasikan SILIKA (Sistem Informasi Lingkungan dan Kebersihan Jakarta, dengan dasbor neraca TPS/TPST dan bank sampah) serta layanan digital Bulky Waste/e-Waste \parencite{silika2026}. Ini ancaman utama, bukan sekadar kompetitor sensor.
-  \item Vendor \textit{fleet-GPS}/\textit{telematics} armada truk eksisting dapat menambahkan sensor \textit{fill-level} sebagai fitur inkremental dengan basis armada yang sudah ada.
-  \item Kompetitor sensor \textit{fill-level} dan optimasi rute global (Sensoneo, Ecube Labs, Compology/RoadRunner) \parencite{sensoneo2026,ecubelabs2026,compology2022} dan lokal (Waste4Change, Rekosistem, Microthings) \parencite{waste4change2026,rekosistem2025,microthings2026}.
+  \item Vendor \textit{fleet-GPS} armada eksisting dapat menambahkan sensor \textit{fill-level} sebagai fitur inkremental.
+  \item Kompetitor sensor \textit{fill-level} dan optimasi rute global (Sensoneo, Ecube Labs, Compology/RoadRunner) \parencite{sensoneo2026,ecubelabs2026,compology2022} dan lokal (Waste4Change, Rekosistem, Microthings) \parencite{waste4change2026,microthings2026}.
   \item Risiko kebijakan: implementasi Ingub 5/2026 yang berubah dapat menggeser pola distribusi; mitigasi: platform mengikuti arah kebijakan sebagai \textit{execution layer}, bukan menentangnya.
 \end{itemize}
 \\
@@ -56,24 +56,46 @@
 \end{itemize}
 
 \textbf{Estimasi ukuran pasar} (TAM--SAM--SOM):
-\begin{itemize}[leftmargin=1.5cm]
-  \item \textit{TAM} (\textit{Total Addressable Market}): dianchor pada total timbulan sampah DKI Jakarta \textpm{}9.000 ton/hari (termasuk komuter) \parencite{kompaspunya2026} dan jaringan fasilitas pengelolaan sampah DKI sebanyak 8.615 fasilitas pendukung, termasuk 2.247 bank sampah dan 31 TPS 3R \parencite{tvrinetwork2026}, sebagai basis titik pemasangan sensor potensial.
-  \item \textit{SAM} (\textit{Serviceable Addressable Market}): kawasan komersial dan industri di Jabodetabek yang tercakup kewajiban Pergub 102/2021, ditambah jalur B2G DLH DKI (asumsi internal tim, belum divalidasi lapangan).
-  \item \textit{SOM} (\textit{Serviceable Obtainable Market}): target internal 75 kontainer pada tahun pertama (\textit{pilot}), 400 kontainer pada tahun kedua, dan 1.000 unit sensor pada akhir tahun ketiga (asumsi target skala tim, lihat Bab 1.2).
-\end{itemize}
+\begin{table}[H]
+\footnotesize
+\renewcommand{\arraystretch}{0.85}
+\begin{tabularx}{\textwidth}{|>{\RaggedRight\arraybackslash}p{1.6cm}|>{\RaggedRight\arraybackslash}X|}
+\hline
+\textbf{Segmen} & \textbf{Lingkup dan basis} \\
+\hline
+\textit{TAM} & Timbulan sampah DKI \textpm{}9.000 ton/hari (termasuk komuter) \parencite{kompaspunya2026}; 8.615 fasilitas pendukung, termasuk 2.247 bank sampah dan 31 TPS 3R \parencite{tvrinetwork2026}, sebagai basis titik pemasangan sensor. \\
+\hline
+\textit{SAM} & Kawasan komersial/industri Jabodetabek yang tercakup kewajiban Pergub 102/2021, ditambah jalur B2G DLH DKI (asumsi internal tim). \\
+\hline
+\textit{SOM} & 75 (Y1) $\rightarrow$ 400 (Y2) $\rightarrow$ 1.000 (Y3) kontainer (target skala tim, Bab 1.2). \\
+\hline
+\end{tabularx}
+\caption{Estimasi ukuran pasar TAM--SAM--SOM}
+\end{table}
 
 \textbf{Persona pelanggan utama:}
-\begin{itemize}[leftmargin=1.5cm]
-  \item \textit{Kepala operasional DLH} --- prioritas: penghematan BBM/armada, verifikasi kepatuhan pemilahan, dan data yang dapat diaudit.
-  \item \textit{Manajer fasilitas gedung/mal} --- prioritas: kepatuhan Pergub 102/2021, kebersihan kawasan, dan laporan ESG siap pakai.
-  \item \textit{Operator RDF/TPST} --- prioritas: pasokan sampah dengan mutu kalor yang lebih konsisten.
-\end{itemize}
+\begin{table}[H]
+\footnotesize
+\renewcommand{\arraystretch}{0.85}
+\begin{tabularx}{\textwidth}{|>{\RaggedRight\arraybackslash}p{4.2cm}|>{\RaggedRight\arraybackslash}X|}
+\hline
+\textbf{Persona} & \textbf{Prioritas} \\
+\hline
+Kepala operasional DLH & Hemat BBM/armada; verifikasi kepatuhan pemilahan; data siap audit. \\
+\hline
+Manajer fasilitas gedung/mal & Kepatuhan Pergub 102/2021; kebersihan kawasan; laporan ESG siap pakai. \\
+\hline
+Operator RDF/TPST & Pasokan sampah bermutu kalor yang lebih konsisten. \\
+\hline
+\end{tabularx}
+\caption{Persona pelanggan utama \ProductName{}}
+\end{table}
 
 \subsection{Strategi Pemasaran}
 \label{sec:3-3}
 
 \begin{itemize}[leftmargin=1.5cm]
-  \item \textbf{Jalur B2G:} pendaftaran vendor teknologi DKI melalui \textit{e-Katalog}/LKPP (wajib untuk K/L/Pemda sejak 1 Januari 2025) dan pengajuan pilot bersama DLH DKI \parencite{lkpp2024}. Siklus pengadaan IT pemerintah umumnya 6--18 bulan (asumsi, mengacu ketentuan kontrak multi-tahun LKPP \parencite{lkpp2018}), sehingga pendapatan B2G diproyeksikan mulai tahun kedua (Bab 5). Narasi keselarasan dengan Ingub 5/2026 menjadi modal utama.
+  \item \textbf{Jalur B2G:} pendaftaran vendor teknologi DKI melalui \textit{e-Katalog}/LKPP (wajib untuk K/L/Pemda sejak 1 Januari 2025) dan pengajuan pilot bersama DLH DKI \parencite{lkpp2024}. Siklus pengadaan IT pemerintah diperkirakan 6--18 bulan (asumsi, sejalan ketentuan kontrak multi-tahun LKPP \parencite{lkpp2018}), sehingga pendapatan B2G diproyeksikan mulai tahun kedua (Bab 5). Narasi keselarasan Ingub 5/2026 menjadi modal utama.
   \item \textbf{Jalur B2B:} pendekatan langsung ke asosiasi pengelola gedung dan mal, serta kemitraan dengan vendor pengangkut sampah berizin.
   \item \textbf{Positioning:} ``\textit{Execution \& verification layer} untuk pengelolaan sampah kota --- patuh Ingub 5/2026, hemat BBM, data ESG siap audit.'' Diferensiasi terhadap kompetitor (DLH in-house SILIKA, vendor fleet-GPS) ditekankan pada integrasi khusus ekosistem RDF Rorotan/Bantar Gebang dan kedalaman data kepatuhan pemilahan.
   \item \textbf{Model harga} (rincian di Bab 5): lisensi SaaS tahunan + penjualan unit sensor (pass-through) untuk B2G; langganan bulanan per kontainer untuk B2B; modul ESG tambahan.
