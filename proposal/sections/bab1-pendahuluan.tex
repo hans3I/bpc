@@ -4,68 +4,57 @@
 \subsection{Latar Belakang Bisnis}
 \label{sec:1-1}
 
-Tempat Pemrosesan Akhir (TPA) Bantar Gebang, yang menerima rata-rata 7.300--7.700 ton sampah per hari dari DKI Jakarta pada periode 2024--2025 \parencite{dlhjakarta2026}, saat ini berada dalam kondisi kritis akibat keterbatasan kapasitas penampungan; tumpukan sampah yang telah terakumulasi diperkirakan melampaui kapasitas desain landfill, dan sejumlah kajian menyebutnya berstatus \textit{overload} \parencite{koranjakarta2025}. Pemerintah DKI Jakarta telah membangun fasilitas modern seperti RDF (\textit{Refuse Derived Fuel}) Plant Rorotan di Cilincing --- yang mulai beroperasi bertahap sejak Desember 2025 dengan kapasitas terpasang 2.200--2.400 ton/hari pada tiga lini produksi, namun per Agustus 2026 baru satu lini (\textpm{}800 ton/hari) yang berjalan penuh \parencite{rorotan2026} --- untuk memproses sampah menjadi bahan bakar alternatif pengganti batu bara. Namun, keberlanjutan fasilitas-fasilitas ini terancam akibat belum terealisasikannya perbaikan mendasar pada sistem logistik dan pengangkutan sampah yang masih analog.
+Tempat Pemrosesan Akhir (TPA) Bantar Gebang, yang pada 2025 menerima rata-rata \textpm{}7.354 ton sampah per hari dari DKI Jakarta dan sempat menembus \textpm{}7.800--8.000 ton/hari pada 2026 \parencite{dlhjakarta2026,kumparanbantargebang2026,bbcindonesia2026}, berada dalam kondisi kritis. Volume sampah yang masuk menekan kapasitas landfill yang telah melampaui desain, sehingga TPST berstatus \textit{overload} \parencite{koranjakarta2025}; total timbulan sampah Jakarta sendiri diperkirakan \textpm{}9.000 ton/hari bila memperhitungkan komuter dan sektor informal \parencite{kompaspunya2026}. Krisis ini bukan sekadar soal kapasitas: pada 8 Maret 2026, longsor sampah di Zona 4A TPST Bantar Gebang menewaskan tujuh orang dan menghentikan operasi zona tersebut; Gubernur DKI Jakarta menutup Zona 4A, mengalihkan operasional ke Zona 3, dan menyiapkan dua zona sementara \parencite{bbcindonesia2026,kompaslongsor2026}. Insiden ini menjadi peringatan nyata bahwa penumpukan sampah tanpa tata kelola logistik yang baik menimbulkan risiko fisik dan sosial langsung bagi warga.
 
-Sistem pengelolaan sampah kota saat ini masih bergantung pada pola pengangkutan yang statis dan berbasis jadwal, bukan berbasis volume, yang menciptakan empat inefisiensi kritis:
+Di sisi pengolahan, Pemerintah DKI Jakarta telah membangun RDF (\textit{Refuse Derived Fuel}) Plant Rorotan di Cilincing --- mulai beroperasi bertahap sejak Desember 2025 dengan kapasitas terpasang 2.200--2.400 ton/hari pada tiga lini produksi, namun per Agustus 2026 baru satu lini (\textpm{}800 ton/hari) yang berjalan penuh \parencite{rorotan2026}. Kendala utamanya bukan pada mesin, melainkan pada logistik: Gubernur Pramono Anung menyatakan bahwa beroperasinya seluruh lini ``sangat bergantung pada transportasi,'' dan pada pasokan \textpm{}1.000 ton/hari hanya satu lini (dan sebagian lini kedua) yang dapat berjalan \parencite{kompasrorotan2026,diswayrorotan2026}. Dengan kata lain, kapasitas pengolahan RDF sudah tersedia, tetapi terhambat oleh ketiadaan sistem yang mengarahkan sampah bermutu kalor ke pabrik secara konsisten.
+
+Sistem pengelolaan sampah kota masih bertumpu pada pola pengangkutan yang statis dan berbasis jadwal, bukan berbasis volume, yang menciptakan empat inefisiensi kritis:
 \begin{enumerate}[leftmargin=1.5cm]
   \item \textbf{Pemborosan biaya operasional dan bahan bakar.} Armada truk sampah sering kali melakukan perjalanan dengan rute tetap untuk menjemput kontainer yang belum penuh, atau sebaliknya, terlambat menjemput kontainer yang sudah meluap.
-  \item \textbf{Risiko emisi gas metana dan kebakaran di Bantar Gebang.} Penumpukan sampah tanpa pemilahan memicu proses dekomposisi anaerobik sampah organik yang menghasilkan gas metana (CH\textsubscript{4}) dan gas berbau lain dalam volume besar. Metana memiliki potensi pemanasan global sekitar 27--30 kali lipat CO\textsubscript{2} dalam rentang waktu 100 tahun (\textit{Global Warming Potential} GWP-100, IPCC AR6) \parencite{ipcc2021}. Selain memperburuk krisis iklim, akumulasi metana di TPA telah dikaitkan dengan sejumlah kebakaran besar di Bantar Gebang, termasuk pada 2015 dan 2023 \parencite{kompasiana2023}; peristiwa ledakan gas metana yang paling dikenal di Indonesia terjadi di TPA Leuwigajah, Cimahi, pada 2005 \parencite{bbcindonesia2026}, dan menjadi peringatan atas risiko serupa apabila akumulasi gas di TPA besar tidak dikelola.
-  \item \textbf{Kerapuhan bahan baku pabrik RDF.} Off-taker industri seperti pabrik semen mensyaratkan produk RDF dengan nilai kalor minimal 3.000 kkal/kg dan kadar air maksimal 20\% \parencite{beritajakarta2023}, sementara sampah mentah di Bantar Gebang rata-rata hanya bernilai kalor \textpm{}1.747 kkal/kg dengan kadar air 31,8\% \parencite{saintek2022}. Tanpa sistem pemetaan berbasis data di tingkat TPS, sampah basah (organik) dan sampah kering bercampur sejak awal, sehingga memperberat proses pemilahan dan pengeringan yang harus dilakukan RDF Plant untuk mencapai spesifikasi produk akhir tersebut.
+  \item \textbf{Risiko emisi gas metana dan kebakaran di Bantar Gebang.} Penumpukan sampah tanpa pemilahan memicu proses dekomposisi anaerobik sampah organik yang menghasilkan gas metana (CH\textsubscript{4}) dan gas berbau lain dalam volume besar. Metana memiliki potensi pemanasan global sekitar 27--30 kali lipat CO\textsubscript{2} dalam rentang waktu 100 tahun (\textit{Global Warming Potential} GWP-100, IPCC AR6) \parencite{ipcc2021}. Akumulasi metana di TPA telah dikaitkan dengan sejumlah kebakaran besar di Bantar Gebang, termasuk pada 2015 dan 2023 \parencite{kompasiana2023}; longsor Maret 2026 menunjukkan risiko serupa apabila penumpukan tidak dikelola \parencite{bbcindonesia2026}.
+  \item \textbf{Kerapuhan bahan baku pabrik RDF.} Off-taker industri seperti PT Indocement Tunggal Prakarsa --- penandatangan perjanjian jual-beli RDF dengan Rorotan sejak Desember 2025 \parencite{tempoindocement2026,kompaspunya2026} --- mensyaratkan produk RDF dengan nilai kalor minimal 3.000 kkal/kg (LHV), kadar air maksimal 20\%, dan ukuran partikel maksimal 5 cm, sesuai SNI 9313:2024 tentang bahan bakar serpihan sampah untuk industri semen \parencite{sni9313,swindo2026}. Sampah mentah di Bantar Gebang rata-rata hanya bernilai kalor \textpm{}1.747 kkal/kg dengan kadar air 31,8\% \parencite{saintek2022}. Tanpa sistem pemetaan berbasis data di tingkat TPS, sampah basah (organik) dan sampah kering bercampur sejak awal, sehingga memperberat proses pemilahan dan pengeringan yang harus dilakukan RDF Plant untuk mencapai spesifikasi produk akhir tersebut.
   \item \textbf{Kebutuhan transparansi laporan keberlanjutan.} Pengelola kawasan komersial (gedung perkantoran, mal, dan kawasan industri swasta) di DKI Jakarta wajib melaksanakan pengelolaan sampah mandiri sesuai Peraturan Gubernur DKI Jakarta No. 102 Tahun 2021 \parencite{pergub102}. Sebagian dari mereka --- khususnya grup usaha yang induk atau afiliasinya berstatus emiten atau perusahaan publik --- juga menghadapi kewajiban pelaporan keberlanjutan berdasarkan POJK No.\ 51/\allowbreak POJK.03/\allowbreak 2017 \parencite{pojk51}, di samping ekspektasi investor dan mitra bisnis yang lebih luas terhadap transparansi data lingkungan.
 \end{enumerate}
 
-\ProductName{} hadir sebagai jawaban atas tantangan logistik dan pengelolaan sampah perkotaan melalui pendekatan \textit{asset-light} B2B/B2G SaaS. Dengan mengkombinasikan sensor IoT \textit{ultrasonic fill-level}, algoritma \textit{Dynamic Routing AI}, dan \textit{Predictive RDF Allocation System}, \ProductName{} merestrukturisasi manajemen sampah dari sekadar aktivitas pembuangan menjadi rantai logistik yang presisi. Platform ini tidak hanya menghemat anggaran operasional pengangkut sampah, tetapi juga membantu menyalurkan sampah bernilai kalor tinggi agar lebih siap diproses oleh industri RDF, sehingga turut meringankan tekanan terhadap daya tampung Bantar Gebang.
+Reformasi kebijakan DKI Jakarta mempertegas arah ini. Instruksi Gubernur (Ingub) No. 5/2026 tentang Gerakan Pemilahan dan Pengolahan Sampah dari Sumber, ditetapkan 30 April 2026, mewajibkan pemilahan sampah di sumber menjadi empat kategori (organik, anorganik, B3, residu) serta model \textit{pilah-angkut-olah} \parencite{ingub5_2026}. Mulai 1 Agustus 2026, hanya sampah residu yang boleh masuk ke Bantar Gebang, sebagai fase menuju penghentian \textit{open dumping} pada 2029 \parencite{ingub5_2026,kompaspunya2026}. Pemerintah DKI mencatat 8.615 fasilitas pendukung pengelolaan sampah, termasuk 2.247 bank sampah dan 31 TPS 3R, dengan tingkat pemilahan baru mencapai \textpm{}23,14\% pada awal Agustus 2026 \parencite{tvrinetwork2026}. Artinya, struktur kebijakan dan fasilitas sudah terbangun, tetapi mata rantai yang hilang adalah \textbf{sistem yang memverifikasi kepatuhan pemilahan, melacak arus sampah terpilah, dan mengoptimalkan pengangkutannya} menuju fasilitas pengolahan. Di sinilah \ProductName{} berperan.
+
+\ProductName{} hadir sebagai \textit{execution and verification layer} bagi agenda reformasi ini melalui pendekatan \textit{asset-light} B2B/B2G SaaS. Dengan mengkombinasikan sensor IoT \textit{ultrasonic fill-level}, algoritma \textit{Dynamic Routing AI}, dan \textit{Predictive RDF Allocation System}, \ProductName{} merestrukturisasi manajemen sampah dari sekadar aktivitas pembuangan menjadi rantai logistik yang presisi. Platform ini tidak hanya menghemat anggaran operasional pengangkut sampah, tetapi juga membantu menyalurkan sampah bernilai kalor tinggi agar lebih siap diproses oleh industri RDF, sehingga turut meringankan tekanan terhadap daya tampung Bantar Gebang dan mendukung pasokan penuh lini RDF Rorotan.
 
 \subsection{Tujuan Bisnis}
 \label{sec:1-2}
 
-Tujuan bisnis \ProductName{} dirancang dengan prinsip SMART (\textit{Specific, Measurable, Achievable, Relevant, Time-bound}) yang mencakup tiga dimensi utama: dampak operasional \& teknologi, kinerja finansial, serta dampak lingkungan \& sosial (ESG).
+Tujuan bisnis \ProductName{} dirancang dengan prinsip SMART (\textit{Specific, Measurable, Achievable, Relevant, Time-bound}) dalam tiga dimensi: operasional \& teknologi, finansial \& komersial, serta lingkungan \& sosial (ESG).
 
-\textbf{1. Tujuan operasional dan teknologi}
-\begin{itemize}[leftmargin=1.5cm]
-  \item \textit{Efisiensi rute dan logistik (tahun 1--2):} Mengurangi konsumsi BBM dan biaya operasional pemeliharaan armada truk sampah hingga 30--40\% pada lebih dari 600 dari total 1.168 TPS/titik kontainer yang tercatat di DKI Jakarta (BPS, 2022) \parencite{bps2022}, melalui penerapan algoritma \textit{Dynamic Routing AI} (asumsi target internal tim, belum divalidasi lapangan).
-  \item \textit{Akurasi alokasi bahan baku RDF (tahun 1--3):} Mencapai tingkat akurasi prediksi kelayakan sampah (nilai kalor tinggi, kadar air rendah) sebesar $>$80\% pada \textit{Predictive RDF Allocation System}, guna membantu pasokan bahan baku memenuhi spesifikasi teknis off-taker RDF seperti Rorotan (asumsi target performa model).
-  \item \textit{Penetrasi perangkat IoT (tahun 1--3):} Mendistribusikan dan mengintegrasikan sedikitnya 1.000 unit sensor IoT \textit{ultrasonic fill-level} di kawasan komersial Jabodetabek dan fasilitas TPS binaan dinas lingkungan hidup (asumsi target ekspansi tim).
-\end{itemize}
+\begin{table}[htbp]
+\footnotesize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\textwidth}{|>{\RaggedRight\arraybackslash}X|>{\RaggedRight\arraybackslash}X|X|}
+\hline
+\textbf{Tujuan} & \textbf{Target kuantitatif} & \textbf{Horizon} \\
+\hline
+Penetrasi IoT & 75 $\rightarrow$ 400 $\rightarrow$ 1.000 unit terhubung & Y1 $\rightarrow$ Y2 $\rightarrow$ Y3 \\
+\hline
+Akurasi alokasi RDF & $>$80\% prediksi \textit{kelayakan} (proxy, Bab 2.1) & Y1--Y3 \\
+\hline
+Finansial & ARR positif Y1; GRR $>$90\% mulai Y2; margin kotor $>$55\% Y3 & Y1--Y3 \\
+\hline
+Efisiensi rute & Reduksi BBM/operasional 30--40\% & Y1--Y2 \\
+\hline
+Lingkungan & 50.000--100.000 ton kalor-tinggi/tahun ke RDF Rorotan & Y3 \\
+\hline
+Kepatuhan & 100\% kontainer tercatat kepatuhan Ingub 5/2026 & Y1--Y3 \\
+\hline
+\end{tabularx}
+\caption{Target SMART \ProductName{} (asumsi target tim; proyeksi keuangan di Bab 5)}
+\end{table}
 
-\textbf{2. Tujuan finansial dan komersial}
-\begin{itemize}[leftmargin=1.5cm]
-  \item \textit{Pencapaian \textit{Annual Recurring Revenue} (tahun 1):} Meraih ARR bernilai positif pada tahun pertama operasional melalui akuisisi setidaknya 5 pengelola gedung komersial (B2B) dan 1 proyek percontohan (\textit{pilot project} B2G) bersama Pemda DKI Jakarta (asumsi target akuisisi).
-  \item Menjaga \textit{gross revenue retention} di atas 90\% setiap tahun mulai tahun kedua, konsisten dengan tolok ukur industri B2B SaaS di mana GRR median berada di kisaran 91\% dan dianggap sebagai standar minimum yang sehat \parencite{saascapital2023}.
-  \item Menargetkan \textit{serviceable obtainable market} (SOM) pada akhir tahun ketiga sambil mempertahankan \textit{gross profit margin} di atas 70\%, sejalan dengan median \textit{gross margin} 74\% pada survei perusahaan B2B SaaS privat oleh SaaS Capital \parencite{saascapitalmargin2019}.
-\end{itemize}
+\textbf{Dimensi operasional dan teknologi.} Mendistribusikan dan mengintegrasikan sedikitnya 1.000 unit sensor IoT \textit{ultrasonic fill-level} di kawasan komersial Jabodetabek dan fasilitas TPS binaan DLH pada akhir tahun ketiga, dengan jalur pertumbuhan 75 $\rightarrow$ 400 $\rightarrow$ 1.000 unit (Bab 3.2 dan Bab 5). Mencapai akurasi prediksi \textit{kelayakan} sampah untuk alokasi RDF di atas 80\% pada \textit{Predictive RDF Allocation System}; sebagaimana dijelaskan di Bab 2.1, akurasi ini mengukur kecocokan proxy berbasis data (kategori sumber, kepatuhan pemilahan, aset historis, curah hujan) terhadap hasil analisis proksimat, bukan pengukuran nilai kalor langsung oleh sensor.
 
-\textbf{3. Tujuan dampak lingkungan dan sosial (ESG)}
-\begin{itemize}[leftmargin=1.5cm]
-  \item \textit{Pengurangan beban TPA Bantar Gebang (tahun 1--3):} Membantu mengalihkan sedikitnya 50.000--100.000 ton sampah bernilai kalor tinggi per tahun dari penumpukan langsung di TPA menuju RDF Plant Rorotan --- setara 6--17\% dari throughput Rorotan saat ini (asumsi target skala, mengacu pada kapasitas operasional Rorotan \textpm{}800 ton/hari $\approx$ 292.000 ton/tahun) \parencite{rorotan2026}.
-  \item \textit{Reduksi potensi emisi gas metana:} Mendukung pengurangan potensi pembentukan metana di TPA melalui pengalihan lebih dini sampah organik bernilai kalor rendah keluar dari alur pengangkutan campur.
-  \item Memotong jejak dan mengurangi emisi karbon dari aktivitas transportasi pengangkut sampah, dengan mengubah pola pengangkutan berbasis jadwal menjadi dinamis.
-  \item \textit{Kepatuhan regulasi:} Membantu mitra pengelola kawasan komersial memenuhi kewajiban Peraturan Gubernur DKI Jakarta No.\ 102/\allowbreak 2021 \parencite{pergub102}, serta mendukung kebutuhan pelaporan keberlanjutan sukarela bagi mitra yang tunduk pada POJK 51/\allowbreak POJK.03/\allowbreak 2017 \parencite{pojk51}.
-\end{itemize}
+\textbf{Dimensi finansial dan komersial.} Meraih ARR positif pada tahun pertama melalui akuisisi setidaknya lima pengelola gedung komersial (B2B) dan satu proyek percontohan B2G bersama Pemda DKI Jakarta. Menjaga \textit{gross revenue retention} di atas 90\% setiap tahun mulai tahun kedua, konsisten dengan tolok ukur industri B2B SaaS (median GRR 91\%) \parencite{saascapital2023}. Menargetkan \textit{gross profit margin} di atas 55\% pada tahun ketiga seiring porsi pendapatan langganan berulang membesar (Bab 5.3).
+
+\textbf{Dimensi lingkungan dan sosial (ESG).} Membantu mengalihkan sedikitnya 50.000--100.000 ton sampah bernilai kalor tinggi per tahun dari penumpukan langsung di TPA menuju RDF Plant Rorotan --- setara 17--34\% dari throughput Rorotan saat ini (asumsi target skala, mengacu pada kapasitas operasional Rorotan \textpm{}800 ton/hari $\approx$ 292.000 ton/tahun) \parencite{rorotan2026}; bila dibandingkan dengan kapasitas penuh 2.400 ton/hari (876.000 ton/tahun), porsi tersebut setara 6--11\%. Mendukung reduksi potensi pembentukan metana melalui pengalihan lebih dini sampah organik keluar dari alur campur. Memotong jejak karbon dari aktivitas transportasi pengangkut dengan mengubah pola berbasis jadwal menjadi dinamis. Membantu mitra kawasan komersial memenuhi kewajiban Pergub 102/2021 dan kebutuhan pelaporan keberlanjutan POJK 51/2017 \parencite{pergub102,pojk51}.
 
 \subsection{Manfaat Bisnis}
 \label{sec:1-3}
 
-\ProductName{} memberikan nilai strategis bagi seluruh pemangku kepentingan dalam operasional pengelolaan sampah perkotaan, mulai dari sektor publik hingga swasta.
-
-\textbf{1. Manfaat bagi pemerintah daerah dan dinas lingkungan hidup (B2G)}
-\begin{itemize}[leftmargin=1.5cm]
-  \item Efisiensi anggaran operasional: membantu memangkas alokasi biaya BBM dan pemeliharaan armada angkut.
-  \item Membantu mengurangi volume sampah campuran yang masuk per hari ke TPST Bantar Gebang.
-  \item Mendukung keberlanjutan pasokan bahan baku RDF Plant Rorotan.
-\end{itemize}
-
-\textbf{2. Manfaat bagi pengelola kawasan komersial (B2B)}
-\begin{itemize}[leftmargin=1.5cm]
-  \item Peningkatan kebersihan dan sanitasi kawasan --- mencegah kontainer sampah meluap menggunakan sistem pemantauan \textit{real-time}.
-  \item Kemudahan memenuhi kewajiban Peraturan Gubernur DKI Jakarta No.\ 102/\allowbreak 2021 tentang pengelolaan sampah di kawasan dan perusahaan, tanpa perlu menambah SDM operasional secara signifikan \parencite{pergub102}.
-  \item Otomasi pelaporan data pengelolaan limbah dalam format yang lebih siap audit, untuk mendukung kebutuhan pelaporan keberlanjutan investor maupun --- bagi grup usaha yang relevan --- kewajiban POJK 51/\allowbreak POJK.03/\allowbreak 2017 \parencite{pojk51}.
-\end{itemize}
-
-\textbf{3. Manfaat bagi lingkungan}
-\begin{itemize}[leftmargin=1.5cm]
-  \item Reduksi emisi gas rumah kaca yang dihasilkan oleh armada pengangkut.
-  \item Meringankan beban kemacetan kota dengan meminimalkan pergerakan armada pengangkut sampah pada jam sibuk melalui \textit{dynamic routing}.
-  \item Mendukung pengurangan potensi pembentukan gas metana dari sampah yang tertahan lebih lama di TPA.
-  \item Berkontribusi pada perbaikan kualitas udara di kawasan sekitar Bantar Gebang seiring optimalnya distribusi sampah ke fasilitas pengolahan.
-\end{itemize}
+Bagi pemerintah daerah (B2G), \ProductName{} membantu memangkas anggaran BBM dan pemeliharaan armada, mempercepat verifikasi kepatuhan pemilahan Ingub 5/2026 melalui data arus sampah terpilah, serta mendukung keberlanjutan pasokan bahan baku RDF Rorotan sekaligus meringankan beban Bantar Gebang. Bagi pengelola kawasan komersial (B2B), platform mencegah kontainer meluap lewat pemantauan \textit{real-time}, mempermudah pemenuhan kewajiban Pergub DKI No. 102/2021 tanpa tambahan SDM signifikan, dan menyediakan pelaporan data limbah siap audit bagi kebutuhan ESG/POJK 51/2017 \parencite{pergub102,pojk51}. Bagi lingkungan, \ProductName{} mereduksi emisi GRK armada, mengurangi kemacetan via \textit{dynamic routing}, menekan potensi pembentukan metana, dan turut memperbaiki kualitas udara kawasan sekitar Bantar Gebang.

@@ -4,24 +4,27 @@
 \subsection{Deskripsi Produk/Jasa}
 \label{sec:2-1}
 
-\ProductName{} merupakan platform \textit{Green Technology} berbasis SaaS dengan model bisnis B2B/B2G yang dirancang untuk mengoptimalkan manajemen logistik pengangkutan sampah perkotaan. Produk ini terdiri atas tiga komponen inti:
+\ProductName{} merupakan platform \textit{Green Technology} berbasis SaaS dengan model bisnis B2B/B2G yang dirancang sebagai \textit{execution and verification layer} bagi reformasi pengelolaan sampah DKI Jakarta (Ingub No. 5/2026) dan pengoptimal logistik pengangkutan sampah perkotaan. Produk ini terdiri atas tiga komponen inti:
 \begin{enumerate}[leftmargin=1.5cm]
   \item \textbf{Sensor IoT \textit{fill-level}} --- perangkat keras pintar yang dipasang pada kontainer sampah di Tempat Penampungan Sementara (TPS) maupun gedung komersial seperti mal dan perkantoran. Sensor ini memantau tingkat kapasitas sampah secara \textit{real-time} dan mengirimkan data ke pusat kendali --- sebuah pendekatan pemantauan sampah berbasis IoT yang telah mapan dalam literatur \textit{smart city} \parencite{anagnostopoulos2017}.
-  \item \textbf{\textit{Dynamic Routing Engine} berbasis AI} yang secara otomatis menghitung rute pengangkutan sampah paling efisien berdasarkan data kapasitas kontainer, lokasi, dan kondisi lalu lintas aktual.
-  \item \textbf{\textit{Predictive RDF Allocation System}} yang membantu mengidentifikasi sampah dengan indikasi nilai kalor tinggi dan mengarahkannya ke fasilitas pengolahan RDF seperti Rorotan, sehingga input yang tiba di fasilitas pengolahan lebih siap memenuhi spesifikasi produk akhir yang disyaratkan off-taker industri.
+  \item \textbf{\textit{Dynamic Routing Engine} berbasis AI} yang secara otomatis menghitung rute pengangkutan sampah paling efisien berdasarkan data kapasitas kontainer, lokasi, kondisi lalu lintas aktual, dan jadwal kepatuhan pemilahan.
+  \item \textbf{\textit{Predictive RDF Allocation System}} yang membantu mengidentifikasi sampah dengan indikasi nilai kalor tinggi dan mengarahkannya ke fasilitas pengolahan RDF seperti Rorotan, sehingga input yang tiba di fasilitas pengolahan lebih siap memenuhi spesifikasi produk akhir yang disyaratkan off-taker industri (SNI 9313:2024) \parencite{sni9313}.
 \end{enumerate}
 
-Dengan pendekatan \textit{asset-light}, produk ini tidak memerlukan investasi besar dalam pengadaan armada, melainkan memanfaatkan truk sampah milik pemerintah daerah maupun swasta yang sudah beroperasi.
+\textbf{Batasan teknis yang transparan.} Sensor \textit{ultrasonic fill-level} mengukur jarak ke permukaan sampah, sehingga tidak dapat mengukur nilai kalor (kkal/kg) atau kadar air (\%) secara langsung. Untuk itu, \textit{Predictive RDF Allocation System} adalah \textit{proxy classifier} yang mengestimasi \textit{kelayakan} sampah menuju RDF berdasarkan variabel terukur: kategori pemilahan di sumber (sesuai Ingub 5/2026), status kepatuhan TPS, data historis analisis proksimat, dan curah hujan. Pada fase pilot, model dikalibrasi terhadap analisis proksimat aktual, sehingga klaim akurasi $>$80\% merujuk pada kesesuaian prediksi proxy terhadap data aktual, bukan pengukuran langsung. \ProductName{} mengklaim \textit{waste-stream classification and segregation-compliance tracking}, bukan pengukuran kalor.
+
+Dengan pendekatan \textit{asset-light}, produk ini tidak memerlukan investasi besar dalam pengadaan armada, melainkan memanfaatkan truk sampah milik pemerintah daerah maupun swasta yang sudah beroperasi. Perangkat sensor bersifat \textit{pass-through} (dibeli dan dijual kembali kepada pelanggan), sehingga tidak membebani neraca sebagai aset modal besar.
 
 \subsection{Keunggulan Produk}
 \label{sec:2-2}
 
-\ProductName{} memiliki keunggulan kompetitif yang membedakannya dari sistem pengelolaan sampah konvensional:
+\ProductName{} memiliki keunggulan kompetitif yang membedakannya dari sistem konvensional maupun kompetitor sensor generik:
 \begin{enumerate}[leftmargin=1.5cm]
-  \item \textbf{Distribusi sampah yang presisi} menggunakan sistem AI yang menentukan rute tercepat serta membantu mengarahkan sampah bernilai kalor tinggi ke RDF, memaksimalkan potensi \textit{waste-to-energy} dan mengurangi volume sampah yang masuk ke TPA.
-  \item \textbf{Proses pengangkutan yang transparan dan data yang akuntabel}, yang dapat digunakan untuk pelaporan keberlanjutan (ESG) --- kebutuhan yang semakin relevan bagi mitra usaha maupun instansi pemerintah.
-  \item \textbf{Skalabilitas lintas kota} tanpa memerlukan perubahan infrastruktur besar, karena bertumpu pada armada yang telah ada.
-  \item \textbf{Dampak lingkungan positif} melalui pengurangan pemborosan BBM dan optimalisasi pengalihan sampah ke pengolahan energi, yang turut menurunkan emisi karbon dan berpotensi memperpanjang usia pakai TPA.
+  \item \textbf{Verifikasi kepatuhan pemilahan (Ingub 5/2026).} Platform melacak arus sampah terpilah per kategori dan menghasilkan bukti kepatuhan bagi DLH maupun pengelola kawasan --- kebutuhan yang belum dipenuhi solusi sensor generik.
+  \item \textbf{Integrasi khusus ekosistem RDF Rorotan / Bantar Gebang.} Dioptimalkan untuk mendukung pasokan lini 2--3 RDF Rorotan dan meringankan beban Bantar Gebang, bukan sekadar sensor \textit{fill-level} universal.
+  \item \textbf{Distribusi sampah yang presisi.} AI menentukan rute tercepat serta mengarahkan sampah bernilai kalor tinggi ke RDF, memaksimalkan \textit{waste-to-energy} dan mengurangi sampah campuran yang masuk TPA.
+  \item \textbf{Data yang akuntabel.} Proses pengangkutan transparan dan siap diolah menjadi laporan keberlanjutan (ESG).
+  \item \textbf{Skalabilitas lintas kota} tanpa perubahan infrastruktur besar, karena bertumpu pada armada yang telah ada.
 \end{enumerate}
 
 \subsection{Alur Produksi/Jasa}
@@ -31,18 +34,18 @@ Alur operasional produk terbagi dalam enam tahap:
 \begin{enumerate}[leftmargin=1.5cm]
   \item \textbf{Pemasangan sensor IoT.} Sensor dipasang pada setiap kontainer sampah di TPS, mal, perkantoran, atau kawasan komersial lainnya, dan dikalibrasi untuk mengukur tingkat pengisian kontainer secara kontinu.
   \item \textbf{Pengiriman data \textit{real-time}.} Data tingkat kepenuhan dikirim melalui jaringan konektivitas IoT ke pusat data \textit{cloud} milik platform, diperbarui secara periodik (per 30--60 menit).
-  \item \textbf{Analisis dan pengambilan keputusan oleh AI.} Saat sensor mendeteksi kapasitas $\geq$80\%, sistem \textit{Dynamic Routing Engine} mempertimbangkan lokasi kontainer penuh, posisi aktual armada truk, kondisi lalu lintas, serta kapasitas dan lokasi RDF Plant/TPA untuk menghitung rute paling efisien.
+  \item \textbf{Analisis dan pengambilan keputusan oleh AI.} Saat sensor mendeteksi kapasitas $\geq$80\%, sistem \textit{Dynamic Routing Engine} mempertimbangkan lokasi kontainer penuh, posisi aktual armada truk, kondisi lalu lintas, kategori pemilahan (kepatuhan Ingub), serta kapasitas dan lokasi RDF Plant/TPA untuk menghitung rute paling efisien.
   \item \textbf{Eksekusi pengangkutan.} Rute dikirim ke perangkat GPS pengemudi; truk menjemput kontainer penuh dan mengantarkannya sesuai rute yang telah dihitung.
-  \item \textbf{Pemantauan dan pelaporan.} Seluruh perjalanan dicatat dan dianalisis. Platform menampilkan dasbor bagi pemerintah atau pengelola kawasan berisi estimasi volume sampah bernilai kalor tinggi, penghematan BBM, emisi yang dihindari, dan tingkat alokasi sampah ke RDF.
+  \item \textbf{Pemantauan dan pelaporan.} Seluruh perjalanan dicatat dan dianalisis. Platform menampilkan dasbor bagi pemerintah atau pengelola kawasan berisi estimasi volume sampah bernilai kalor tinggi, penghematan BBM, emisi yang dihindari, tingkat alokasi sampah ke RDF, dan bukti kepatuhan pemilahan.
   \item \textbf{Evaluasi dan optimasi berkelanjutan.} Data historis digunakan untuk melatih ulang model AI agar efisiensi dan akurasi rute terus meningkat seiring waktu.
 \end{enumerate}
 
 \subsection{Rencana Pengembangan Produk/Jasa}
 \label{sec:2-4}
 
-Rencana pengembangan produk disusun dalam tiga tahap:
+Rencana pengembangan produk disusun dalam tiga tahap, selaras dengan proyeksi keuangan pada Bab 5:
 \begin{enumerate}[leftmargin=1.5cm]
-  \item \textbf{Pilot project dan validasi teknis (tahun pertama).} Pilot diuji coba di suatu wilayah kota besar dengan melibatkan 50--100 kontainer dan 15--20 armada truk pemerintah. Pengujian difokuskan pada validasi akurasi sensor IoT, stabilitas koneksi data, dan performa \textit{Dynamic Routing Engine} dalam kondisi lalu lintas nyata (macet, perbaikan jalan).
-  \item \textbf{Ekspansi skala kota dan integrasi RDF Plant (tahun kedua dan ketiga).} Memperluas cakupan ke seluruh area DKI Jakarta dan sekitarnya dengan target lebih dari 400 kontainer terhubung. Sistem diintegrasikan lebih penuh dengan RDF Plant Rorotan dan pengelola TPA agar rekomendasi alokasi sampah berbasis kalor berjalan otomatis, disertai peluncuran fitur laporan ESG otomatis yang dapat diunduh pelanggan B2B untuk keperluan audit.
+  \item \textbf{Pilot project dan validasi teknis (tahun pertama).} Pilot diuji coba di suatu wilayah kota besar dengan melibatkan 75 kontainer dan 15--20 armada truk pemerintah. Pengujian difokuskan pada validasi akurasi sensor IoT, stabilitas koneksi data, performa \textit{Dynamic Routing Engine} dalam kondisi lalu lintas nyata, serta kalibrasi \textit{Predictive RDF Allocation} terhadap analisis proksimat aktual.
+  \item \textbf{Ekspansi skala kota dan integrasi RDF Plant (tahun kedua dan ketiga).} Memperluas cakupan ke seluruh area DKI Jakarta dan sekitarnya dengan target 400 (Y2) dan 1.000 (Y3) kontainer terhubung. Sistem diintegrasikan lebih penuh dengan RDF Plant Rorotan dan pengelola TPA agar rekomendasi alokasi sampah berbasis proxy berjalan otomatis, disertai peluncuran fitur laporan ESG otomatis dan verifikasi kepatuhan Ingub 5/2026 yang dapat diunduh pelanggan B2B untuk keperluan audit.
   \item \textbf{Skala nasional dan pengembangan layanan nilai tambah (tahun keempat dan kelima).} Penerapan platform diperluas ke kota-kota besar lain di Indonesia seperti Surabaya, Bandung, dan Medan. Modul analisis prediktif ditambahkan untuk perencanaan kapasitas TPA jangka panjang dan simulasi kebijakan pengurangan sampah, disertai persiapan sertifikasi dan kemitraan dengan penyedia telekomunikasi/\textit{cloud} untuk menekan biaya infrastruktur data.
 \end{enumerate}

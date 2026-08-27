@@ -64,6 +64,10 @@
 % ---------- Bibliography: biblatex + APA7 style + biber backend ----------
 \usepackage{csquotes}
 \usepackage[style=apa, backend=biber, sorting=nyt]{biblatex}
+% APA 7 omits retrieval dates for published/stable web sources; suppress
+% the "Diakses … dari"/"Retrieved … from" clutter biblatex-apa adds.
+\DeclareFieldFormat{urldate}{\relax}
+\AtEveryBibitem{\clearfield{urldate}}
 \addbibresource{referensi.bib}
 \DeclareLanguageMapping{english}{english-apa}
 
@@ -106,17 +110,11 @@
 \setcounter{page}{1}
 
 \input{sections/bab1-pendahuluan}
-\clearpage
 \input{sections/bab2-analisis-produk}
-\clearpage
 \input{sections/bab3-analisis-pasar}
-\clearpage
 \input{sections/bab4-operasional}
-\clearpage
 \input{sections/bab5-keuangan}
-\clearpage
 \input{sections/bab6-penutup}
-\clearpage
 
 % ============ DAFTAR PUSTAKA (still Arabic-numbered, per spec) ============
 \input{sections/daftar-pustaka}
