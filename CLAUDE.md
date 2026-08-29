@@ -13,15 +13,17 @@ engineering. The only "build" is the XeLaTeX/biber compile described below.
 Team (per `proposal/sections/lampiran-2-biodata.tex`): Hansel Stevan Boike (Universitas Padjadjaran),
 Bryan Patrick Kurniawan (Universitas Bina Nusantara), Michael Hau (Universitas Tarumanegara).
 
-## Current state (2026-08-27)
+## Current state (2026-08-30)
 
-The proposal is **built and submitted-ready**: the business idea is **"Alurin"**, an asset-light
+The proposal is **built and submission-ready**: the business idea is **"Alurin"**, an asset-light
 B2B/B2G IoT+AI SaaS platform for Jakarta waste logistics — ultrasonic fill-level sensors on TPS/
 commercial containers, AI Dynamic Routing Engine, Predictive RDF Allocation System — targeting Bantar
-Gebang TPA overload and RDF Plant Rorotan feedstock. Compiled `proposal/main.pdf` is 28 pages;
-Bab 1→Kesimpulan = **14 pages** (within the hard 15-page cap). Remaining pre-submission TODOs
-(deadline 30 Aug 2026): recompile `main.pdf` after recent edits, swap the placeholder cover logo for
-the official IFest 2026 logo, fill Lampiran 2 biodata fields per member.
+Gebang TPA overload and RDF Plant Rorotan feedstock. Compiled `proposal/main.pdf` is **25 pages**;
+Bab 1→Kesimpulan = **14 pages** (within the hard 15-page cap). Cover logo (official IFest 2026 logo,
+`proposal/assets/logo-ifest2026.png`) and full Lampiran 2 biodata for all three members are filled in.
+A DOCX edition (`proposal/Alurin_BPC_IFest_2026.docx`) mirrors the same content; it is the source the
+logo/biodata were ported from into the LaTeX (its own committed birthdate for Hansel Boike, "8 Juli
+2006", was confirmed correct with the team). No known open pre-submission blockers remain.
 
 ## Files
 
@@ -30,13 +32,17 @@ the official IFest 2026 logo, fill Lampiran 2 biodata fields per member.
   render pages directly — extract text instead with `pdftotext -layout "GUIDEBOOK BPC IFEST 2026.pdf" out.txt`
   (see `extract_guidebook.py` / `guidebook_text.txt` for the already-extracted text).
 - **`proposal/`** — **the actual deliverable** (LaTeX source + compiled PDF):
-  - `main.tex` — document root. `\ProductName` macro (one-line product-name swap) at line 87,
-    `\ProposalTitle` at line 88. A4, 4/3/3/3 cm margins, Times New Roman (with TeX Gyre Termes
+  - `main.tex` — document root. `\ProductName` macro (one-line product-name swap) at line 92,
+    `\ProposalTitle` at line 93. A4, 4/3/3/3 cm margins, Times New Roman (with TeX Gyre Termes
     fallback), 1.5 spacing, APA 7 via biblatex/biber, page numbers from Bab 1.
   - `sections/*.tex` — 13 files: `00-cover`, `01-kata-pengantar`, `02-daftar-isi`,
     `03-executive-summary`, `bab1`–`bab6`, `daftar-pustaka`, `lampiran-1-bmc`, `lampiran-2-biodata`.
-  - `referensi.bib` — 33 fact-checked bibliography entries.
+  - `referensi.bib` — 34 fact-checked bibliography entries.
   - `main.pdf` — **the compiled deliverable** (tracked in git; build artifacts are gitignored).
+  - `Alurin_BPC_IFest_2026.docx` — a DOCX edition of the proposal (untracked as of 2026-08-30; a
+    same-named-differently `Alurin-BPC-IFest-2026.docx` was committed in `a56f50d` then deleted from
+    the working tree). Has real logos and filled biodata, unlike the current PDF — reconcile before
+    submission (see Current state).
 - **`SUBTHEME-ANALYSIS.md`** — subtheme-selection research. Marked **SUPERSEDED**; the dated
   addendum (2026-08-26) documents the pivot from the earlier BurnAI idea to Alurin, the committed
   direction. Do **not** treat the BurnAI sections as current.
